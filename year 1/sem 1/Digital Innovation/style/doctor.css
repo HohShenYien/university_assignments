@@ -1,0 +1,95 @@
+* {box-sizing: border-box}
+.navbar{
+    height: 9vh;
+}
+
+.navbar a span{
+    font-size: 1em;
+}
+
+.navbar-brand.abs
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+main{
+  margin-top: 9vh;
+  width: 98vw;
+}
+body{
+  background-color: #E0FFFF;
+}
+.people{
+  width: 60vw;
+  height: auto;
+}
+.tab-pane{
+  display: inline-block;
+}
+.container{
+  margin-left: -10px;
+}
+
+.tab-content{
+  width: 80vw;
+  height:91vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav.nav-tabs {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom:0;
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background: #ccc;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color:#E0FFFF!important;
+    border-color: transparent !important;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem!important;
+    border-top-right-radius: 0rem!important;
+}
+.tab-content>.active {
+    display: inline-block;
+    background: #E0FFFF;
+}
+.nav.nav-tabs {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom: 0;
+    border-right: 1px solid transparent;
+    padding-right: 15px;
+}
+
+.info{
+  margin-top: 20px;
+}
+#right-a-bit{
+  margin-left: 33vw;
+}
+
+.form-group{
+  padding-bottom: 50px;
+}
+
+.btn{
+  margin-top: 20px;
+}
