@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.1/dist/bootstrap-table.min.css">
+
+        <!-- https://favicon.io/emoji-favicons/money-mouth-face/ -->
+        <link href="img/sys_icon.png" rel="icon">
+
+        <link href="style/style.css" rel="stylesheet">
+        <link href="style/admin.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap4.min.js">
+        </script>
+        <script>
+          $(document).ready(function() {
+          $('#example').DataTable();
+          });
+          $(document).ready(function() {
+          $('#table2').DataTable();
+          });
+          $(document).ready(function() {
+          $('#table3').DataTable();
+          });
+        </script>
+        </script>
+
+        <title>Hp-Sys~admin</title>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-light border mx-auto fixed-top" style="background-color: #e3f2fd;">
+            <div class="navbar-nav nav-item">
+                Jane Doe | Cardiology | Hospital Pantai Ampang
+            </div>
+            <a class="navbar-brand mx-auto order-0 abs" href="#">
+                <img src="img/sys_icon.png" width="30" height="30" alt="">
+                <span class="red">&nbsp;H</span>
+                <span class="yellow">p</span>
+                <span class="green">-</span>
+                <span class="blue">Sys</span>
+            </a>
+            <a class="navbar-nav nav-item ml-auto" href="./index.html" style="z-index:1000;">
+              Log out
+            </a>
+        </nav>
+        <main>
+          <div class="nav flex-column nav-pills navs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#patients-list" role="tab" aria-controls="vpatients-list" aria-selected="true">Patient List</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Add Record</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Department</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hospital</a>
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="patients-list" role="tabpanel" aria-labelledby="v-pills-home-tab" style="position: absolute; width: 80vw; margin-top: 20px;">
+              <div class="header">
+              </br>
+                <div class="first-header">
+                  <h5><span class='text-muted'>Hospital: </span>Hospital Pantai Ampang</h5>
+                  <h5><span class='text-muted'>Department: </span>Cardiology</h5>
+                </div>
+                <h4 class="mx-auto">Patient List</h4>
+              </div>
+                <table cellspacing="0" class="table table-bordered table-hover table-inverse table-striped" id="example" width="100%">
+                  <thead>
+                      <tr>
+                          <th>ID</th>
+                          <th>Name</th>
+                          <th>Profile</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>P031592</td><td>Foster Miller</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031299</td><td>Shannon Maldonado</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031909</td><td>Julius Snyder</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031894</td><td>Son Valentine</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031790</td><td>Anton Daniels</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031890</td><td>Jeremy Strong</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031453</td><td>Evangelina Carter</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031204</td><td>Traci Dunlap</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031512</td><td>Lacey Richmond</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031096</td><td>Margarita Underwood</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031810</td><td>Monroe Key</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031387</td><td>Hobert Odonnell</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031350</td><td>King Jennings</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031131</td><td>Jesse Baxter</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031669</td><td>Leon Hayden</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031894</td><td>Jean Stephens</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031910</td><td>Alva Jacobs</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031735</td><td>Lamar Cannon</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031389</td><td>Wm Cabrera</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031339</td><td>Hannah Leon</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031057</td><td>Shirley Floyd</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031222</td><td>Oscar Warren</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031703</td><td>Josie Ho</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031852</td><td>Leroy Noble</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031709</td><td>Viola Grant</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031092</td><td>Camille Wong</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031485</td><td>Luis Dorsey</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031151</td><td>Lupe Gaines</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031450</td><td>Noelle Pittman</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031251</td><td>Karla Orr</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031276</td><td>Elroy Hendrix</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031687</td><td>Jefferson Crane</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031504</td><td>Katherine Hansen</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031173</td><td>Dena Roberts</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031136</td><td>Juliet Guzman</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031186</td><td>Barney Drake</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031201</td><td>Noemi Frederick</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031654</td><td>Mack Werner</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031847</td><td>Roberto Rogers</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031214</td><td>Claudine Wells</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031576</td><td>Dianna Coleman</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031195</td><td>Mae Barton</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031781</td><td>Garfield Rodriguez</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031843</td><td>Ola Rosario</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031416</td><td>Trenton Wall</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031184</td><td>Micah Williams</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031398</td><td>Felipe Gilbert</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031923</td><td>Vilma Blake</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031750</td><td>Jackson Mayo</td><td><a href='profile.html'>Info</a></td></tr>
+                    <tr><td>P031284</td><td>Mohamed Washington</td><td><a href='profile.html'>Info</a></td></tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" style="display: flex; flex-direction: column; justify-content: center; position: absolute; width: 80vw; margin-top: 20px;">
+              <h5 class="mx-auto" >Add record by uploading PDF to be read by machine or key in manually</h5>
+              <form class="mx-auto">
+                <div class="form-group" style="text-align: center;">
+                  <label for="exampleFormControlFile1">Upload</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+              </form>
+              <h5 class="mx-auto">OR</h5>
+              <form>
+                <div class="form-row">
+                <div class="form-group">
+                  <label for="inputAddress">Name</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+                </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Phone Number</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Email</label>
+                    <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick='alert("Submitted successfully!")'>Submit</button>
+              </form>
+              </br>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" style="position: absolute; width: 80vw; margin-top: 20px; z-index: 1000;">
+              <div class="header">
+                <div class="first-header">
+                  <h5><span class='text-muted'>Hospital: </span>Hospital Pantai Ampang</h5>
+                </div>
+                <h4 class="mx-auto">Department List</h4>
+              </div>
+                <table cellspacing="0" class="table table-bordered table-hover table-inverse table-striped" id="table2" width="100%">
+                  <thead>
+                      <tr>
+                          <th>ID</th>
+                          <th>Name</th>
+                          <th>Action</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>PD001</td><td>Anesthetics</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD002</td><td>Cardiology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD003</td><td>Ear, nose and throat(ENT)</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD004</td><td>Elderly services</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD005</td><td>Gastroenterology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD006</td><td>General surgery</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD007</td><td>Gynecology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD008</td><td>Hematology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD009</td><td>Neonatal Unit</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD010</td><td>Neurology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD011</td><td>Nutrition</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD012</td><td>Obstetrics</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD013</td><td>Oncology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD014</td><td>Ophthalmology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD015</td><td>Orthopedics</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD016</td><td>Physiotherapy</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD017</td><td>Renal Unit</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD018</td><td>Sexual Health</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>PD019</td><td>Urology</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" style="position: absolute; width: 80vw; margin-top: 20px;">
+              <div class="header">
+                <h4 class="mx-auto">Hospital List</h4>
+              </div>
+                <table cellspacing="0" class="table table-bordered table-hover table-inverse table-striped" id="table3" width="100%">
+                  <thead>
+                      <tr>
+                          <th>ID</th>
+                          <th>Name</th>
+                          <th>Action</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>HP0001</td><td>ALPS Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0002</td><td>Al-Islam Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0003</td><td>Apollo TTDI Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0004</td><td>Beacon Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0005</td><td>Cheras Geriatric Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0006</td><td>Chinese Maternity Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0007</td><td>Clinic Rosman</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0008</td><td>Columbia Asia Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0009</td><td>Columbia Asia Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0010</td><td>Damai Service Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0011</td><td>Damai Service Hospital Sdn. Bhd.</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0012</td><td>Gleneagles Kuala Lumpur</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0013</td><td>Global Doctors Specialist Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0014</td><td>Hospital Danau Kota</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0015</td><td>Hospital Pantai Ampang</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0016</td><td>Hospital Pantai Indah</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0017</td><td>Institut Jantung Negara/National Heart Institute of Malaysia (IJN)</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0018</td><td>KPJ Ampang Puteri Specialist Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0019</td><td>KPJ Tawakkal Specialist Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0020</td><td>Lourdes Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0021</td><td>Pantai Cheras Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0022</td><td>Pantai Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0023</td><td>Poliklinik Kotaraya</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0024</td><td>Poliklinik Mallal Ear,Nose,Throat Clinic</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0025</td><td>Prince Court Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0026</td><td>Pudu Specialist Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0027</td><td>Pusat Pakar Tawakal S/B</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0028</td><td>Pusat Rawatan Islam S/B</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0029</td><td>Roopi Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0030</td><td>Sambhi Clinic & Nursing Home</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0031</td><td>Samuel Clinic & Specialist Maternity & Clinic for Women</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0032</td><td>Sentosa Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0033</td><td>Sentul Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0034</td><td>Sunway Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0035</td><td>Taman Desa Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0036</td><td>Tung Shin Hospital</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0037</td><td>UKM Specialist Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>
+                    <tr><td>HP0038</td><td>iHEAL Medical Centre</td><td><a href="#"><i class="fa fa-exclamation-circle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Request Information"></i></a>  <a href="#"><i class="fa fa-comments " aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Send a message"></i></a></td></tr>                </table>
+            </div>
+          </div>
+        </main>
+
+    </body>
+
+</html>
+
+
+
+

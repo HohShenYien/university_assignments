@@ -20,16 +20,18 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <script src="js/side-tab.js"></script>
 
 
-        <title>Some application</title>
+        <title>Hp-Sys~doctor</title>
 
     </head>
 
     <body>
 
         <nav class="navbar navbar-light border mx-auto fixed-top" style="background-color: #e3f2fd;">
+            <div class="navbar-nav nav-item">
+                Dr William
+            </div>
             <a class="navbar-brand mx-auto order-0 abs" href="#">
                 <img src="img/sys_icon.png" width="30" height="30" alt="">
                 <span class="red">&nbsp;H</span>
@@ -37,39 +39,43 @@
                 <span class="green">-</span>
                 <span class="blue">Sys</span>
             </a>
-            <div class="navbar-nav ml-auto nav-item ml-auto">
-                Dr William
-            </div>
+            <a class="navbar-nav nav-item ml-auto" href="./index.html" style="z-index:1000;">
+              Log out
+            </a>
         </nav>
-
         <main>
-        <div class="container">
-          <h2 id="title">Patient Queue<span id="right-a-bit">Meet Patient</span></h2>
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home">1. Dalan Nath</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">2. Bob Chong</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">3. Luigi Yong</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#settings" role="tab" aria-controls="settings">4. Hoh Shen Yien</a>
-              </li>
-            </ul>
-        </div>
+          <div id='side-bar'>
+            <h5 class="mx-auto" style="margin-top: 10px;"> Patient Queue</h5>
+            <div class="list-group patient-name" >
+              <a href="#" class="list-group-item list-group-item-action active" data-toggle="tooltip" data-placement="right" title="Meeting at: 3.00p.m.">
+                1. Dalan Nath
+              </a>
+              <a href="#" class="list-group-item list-group-item-action " data-toggle="tooltip" data-placement="right" title="Meeting at: 4.00p.m.">
+                2. Bob Chong
+              </a>
+              <a href="#" class="list-group-item list-group-item-action " data-toggle="tooltip" data-placement="right" title="Meeting at: 5.00p.m.">
+                3. Johny Green
+              </a>
+              <a href="#" class="list-group-item list-group-item-action " data-toggle="tooltip" data-placement="right" title="Meeting at: 6.00p.m.">
+                4. Hoh Shen Yien
+              </a>
+            </div>
+          </div>
 
         <div class="tab-content">
           <div class="tab-pane active" id="home" role="tabpanel">
+            <div class="header">
+              <h5><span class="text-muted">Patient Name:</span> Dalan Nath</h5>
+              <h5><span class="text-muted">Hospital:</span> Hospital Pantai Ampang </h5>
+            </div>
               <img src="img/Dalan.webp" alt="Dalan" class="people">
+            <div style="background-color: #F0F8FF; width: 100%; padding: 10px; border-radius: 20px; margin-top: 10px">
               <div class="info">
                 <h4>
                     About patient
                 </h4>
                 <p>A patient with diabetes doing regular checkup.</p>
-                <a href="#">View record of patient</a>
+                <a href="d_profile.html">View record of patient</a>
               </div>
               <div class="info">
                 <h4>Pre-diagnosis check</h4>
@@ -101,14 +107,13 @@
                 </table>
               </div>
               <div class="form-group info">
-                <label for="exampleFormControlTextarea1">Report</label>
+                <label for="exampleFormControlTextarea1"> <h4>Report</h4></label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write something to the nurse..."></textarea>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" onclick='alert("Submitted successfully!") '>Submit</button>
               </div>
+            </div>
+          </br>
           </div>
-          <div class="tab-pane" id="profile" role="tabpanel">..2.</div>
-          <div class="tab-pane" id="messages" role="tabpanel">.3..</div>
-          <div class="tab-pane" id="settings" role="tabpanel">.4..</div>
         </div>
         </main>
 

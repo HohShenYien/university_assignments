@@ -1,0 +1,100 @@
+* {box-sizing: border-box}
+.navbar{
+    height: 9vh;
+}
+
+.navbar a span{
+    font-size: 1em;
+}
+
+.navbar-brand.abs
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+main{
+  margin-top: 9vh;
+  width: 98vw;
+}
+body{
+  background-color: #E0FFFF;
+}
+
+#side-bar{
+  margin-top: 9vh;
+  height: 82vh;
+  width:300px;
+  background-color: #F6F6F6;
+  position: fixed;
+  overflow-y: scroll;
+  bottom: 0;
+}
+
+
+.input-group{
+  padding: 10px;
+}
+
+.patient-name{
+
+}
+
+.search-bar{
+  position: fixed;
+  width: 300px;
+  background-color: #F6F6F6;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  justify-content: flex-start;
+}
+
+.room{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  align-self: center;
+  width: 350px;
+  text-align: center;
+}
+
+.patient_pic{
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  padding:20px;
+  margin-left: 10px;
+  background-color: #E6E6FA;
+  border-radius: 10px;
+}
+
+.words{
+  width: 30%;
+  background-color: #FFFFE0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.detail{
+  display: flex;
+  padding-left: 20px;
+  width: 60vw;
+}
+
+table{
+  width: 90vw !important;
+  margin-left: 5vw;
+}

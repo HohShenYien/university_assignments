@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- https://favicon.io/emoji-favicons/money-mouth-face/ -->
+        <link href="img/sys_icon.png" rel="icon">
+
+        <link href="style/style.css" rel="stylesheet">
+        <link href="style/nurse.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <title>Hp-Sys~nurse</title>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-light border mx-auto fixed-top" style="background-color: #e3f2fd;">
+            <div class="navbar-nav nav-item">
+                Jenny Watson
+            </div>
+            <a class="navbar-brand mx-auto order-0 abs" href="#">
+                <img src="img/sys_icon.png" width="30" height="30" alt="">
+                <span class="red">&nbsp;H</span>
+                <span class="yellow">p</span>
+                <span class="green">-</span>
+                <span class="blue">Sys</span>
+            </a>
+            <a class="navbar-nav nav-item ml-auto" href="./index.html" style="z-index:1000;">
+              Log out
+            </a>
+        </nav>
+        <main>
+            <div class="input-group mb-3 search-bar">
+              <input type="text" class="form-control" placeholder="Patient's name or ID" aria-label="Patient's name or ID" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          <div id='side-bar'>
+            <div class="list-group patient-name">
+              <a href="#" class="list-group-item list-group-item-action active">
+                P032111 || John Doe
+              </a>
+              <a href="#" class="list-group-item list-group-item-action ">P032120 || Ervin Brewer</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032123 || Dave Wong</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032163 || Emanuel Frey</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032202 || Boyce Berger</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032244 || Nathan Peterson</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032331 || Dathal Singh</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032409 || Houston Vance</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032410 || Ariel Compton</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032423 || Ali bin Samad</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032425 || Kim Duarte</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032430 || Ira Shaw</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032430 || Willian Quinn</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032449 || Tonia Melendez</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032499 || Leslie Dodson</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032581 || Sheldon Henry</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032616 || Connie Donaldson</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032738 || Marcy Alvarado</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032758 || Laurie Morton</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032784 || Lynnette Bradford</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032792 || Tania Sandoval</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032808 || Ernie Mcclain</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032817 || Imelda Gibson</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032825 || Cole Neal</a>
+              <a href="#" class="list-group-item list-group-item-action ">P032891 || Crystal Lee</a>
+            </div>
+          </div>
+          <div class="patient-info">
+            <div class="header">
+              <p class="room mx-auto h4">
+                <span class="text-muted">Room Number:</span> XX123 </br>
+                <span class="text-muted">Patient Name:</span> John Doe
+              </p>
+              <img src="img/john-doe.jpg" alt="Picture" class="patient_pic">
+            </div>
+            <div class="infos">
+              <div class="container">
+                <h5 class="words">Heart Rate <span class="text-muted">(beats per min)</span></h5>
+                <div class="detail">
+                  <img src="img/heart-beat.gif" class="heartbeat">
+                  <p class="mx-auto h5">60</p>
+                </div>
+              </div>
+              <div class="infos">
+              <div class="container">
+                <h5 class="words">Blood Pressure <span class="text-muted">(mmHg)</span></h5>
+                <div class="detail">
+                  <p class="mx-auto h5">120/80</p>
+                </div>
+              </div>
+              <div class="container">
+                <h5 class="words">Oxygen Level <span class="text-muted">(%)</span></h5>
+                <div class="detail">
+                  <p class="mx-auto h5">99</p>
+                </div>
+              </div>
+              <div class="container">
+                <h5 class="words">Body Temperature <span class="text-muted">(°C)</span></h5>
+                <div class="detail">
+                  <p class="mx-auto h5">37</p>
+                </div>
+              </div>
+              <div class="container">
+                <a href="n_profile.html" class="mx-auto">Patient's Record</a>
+              </div>
+              </br>
+            </div>
+          </div>
+        </main>
+
+    </body>
+
+</html>

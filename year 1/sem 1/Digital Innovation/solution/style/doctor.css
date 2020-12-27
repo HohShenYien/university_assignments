@@ -17,14 +17,15 @@
 
 main{
   margin-top: 9vh;
+  padding-top: 10px;
   width: 98vw;
 }
 body{
   background-color: #E0FFFF;
 }
 .people{
-  width: 60vw;
-  height: auto;
+  width: 78vw;
+  height: 91vh;
 }
 .tab-pane{
   display: inline-block;
@@ -34,11 +35,12 @@ body{
 }
 
 .tab-content{
-  width: 80vw;
   height:91vh;
   display: flex;
-  justify-content: center;
-
+  justify-content: flex-start;
+  width: 80vw;
+  margin-left: 18vw;
+  padding-left: 2vw;
 }
 
 .nav.nav-tabs {
@@ -53,7 +55,7 @@ body{
     border: 1px solid transparent;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-    background: #ccc;
+    background: #F0F8FF
 }
 
 .nav-tabs .nav-link.active {
@@ -93,3 +95,16 @@ body{
 .btn{
   margin-top: 20px;
 }
+
+#side-bar{
+  height: 91vh;
+  width:18vw;
+  background-color: #F6F6F6;
+  position: fixed;
+  overflow-y: scroll;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items:;
+}
+
