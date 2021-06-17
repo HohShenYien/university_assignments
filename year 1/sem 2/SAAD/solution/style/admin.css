@@ -1,0 +1,56 @@
+* {box-sizing: border-box}
+.navbar{
+    height: 9vh;
+}
+
+.navbar a span{
+    font-size: 1em;
+}
+
+.navbar-brand.abs
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.tab-content > .tab-pane:not(.active),
+.pill-content > .pill-pane:not(.active) {
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+}
+
+
+main{
+  margin-top: 9vh;
+  width: 98vw;
+}
+body{
+  background-color: #E0FFFF;
+}
+
+.navs{
+  position: fixed;
+  background-color: #FFFAF0;
+  height: 91vh;
+  width: 200px;
+}
+
+.tab-content{
+  margin-left: 215px;
+  width: 80vw !important;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-header{
+}
+
+.search-bar{
+  width: 300px;
+}

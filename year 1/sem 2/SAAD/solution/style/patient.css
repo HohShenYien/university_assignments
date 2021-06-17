@@ -1,0 +1,58 @@
+* {box-sizing: border-box}
+.navbar{
+    height: 9vh;
+}
+
+.navbar a span{
+    font-size: 1em;
+}
+
+.navbar-brand.abs
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+main{
+  margin-top: 9vh;
+  width: 100vw;
+}
+body{
+  background-color: #E0FFFF;
+}
+
+.carousel{
+  width: 50%;
+  margin-top: -55px;
+}
+
+.carousel .item {
+  height: 450px;
+}
+
+.carousel-item img{
+    height: 450px;
+}
+
+.d-block{
+  opacity: 0.7;
+}
+
+.carousel-caption{
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+}
+
+a.disabled{
+    pointer-events: none;
+    cursor: default;
+    color: #000;
+}
