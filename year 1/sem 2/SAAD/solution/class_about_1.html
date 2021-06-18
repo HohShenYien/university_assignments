@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/class_about.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+        $(document).ready(function () {
+            $('#table2').DataTable();
+        });
+        $(document).ready(function () {
+            $('#table3').DataTable();
+        });
+    </script>
+    </script>
+    <title>Classes</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="instructor_about_1.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white font-weight-bold" href="class_about_1.html">
+                Classes
+            </a>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle w-100 login text-white" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="member_login.html">Member</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="instructor_login.html">Instructor</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="admin_login.html">Admin</a>
+                </div>
+            </li>
+            <a>
+                <button type="button" class="btn btn-outline-info">Register</button>
+            </a>
+        </span>
+
+    </nav>
+
+    <main>
+        <div>
+            <div class="first">
+                <h1 class="text-center p-t-10 p-b-10">
+                    Top-notched classes for everyone
+                </h1>
+                <p class="text-center p-b-10 lead fs-28">We offer a variety of classes conducted by professional instructors and aided by world-class facilities.</p>
+            </div>
+            <div class="second">
+                <div class="row classes" id="row1">
+                    <div class="col-8"><img src="img/aerobic_class.jpg" alt="Aerobic" class="class-img"/></div>
+                    <div class="class-txt col-4">
+                        <h1 class="mb-3">
+                            Aerobic
+                          </h1>
+                          <p class="lead fs-24 mb-4 p-l-10">
+                            Aerobic classes involve running, jogging, swimming, dancing and climbing. Joining this class can help to build up your cardiovascular system and improves your health in general.
+                          </p>
+                          <a class="btn btn-primary myBtn m-t-10 m-b-40 fs-24" href="#" role="button">Learn more about aerobic</a>
+                    </div>
+                </div>
+                <div class="row classes" id="row2 p-l-40">
+                    <div class="class-txt col-4">
+                        <h1 class="mb-3">
+                            Yoga
+                          </h1>
+                          <p class="lead fs-24 mb-4 p-l-10">
+                            Yoga is a mind and body practice. By joining yoga classes, you may find inner peace, improve flexibility, and improve your health in general.
+                          </p>
+                          <a class="btn btn-primary myBtn m-t-10 m-b-40 fs-24" href="#" role="button">Learn more about yoga</a>
+                    </div>
+                    <div class="col-8"><img src="img/yoga_class.jpg" alt="Aerobic" class="class-img"/></div>
+                </div>
+            </div>
+                <h2 class="text-center m-t-60">
+                    Instructor List
+                </h2>
+                <p class="text-center p-b-10 lead fs-24">Explore our instructors!</p>
+            </div>
+        </div>
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_1.html">About Us</a></li>
+                        <li><a href="instructor_about_1.html">Instructor List</a></li>
+                        <li><a href="class_about_1.html">Class List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
