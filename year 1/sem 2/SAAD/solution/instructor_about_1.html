@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/index.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/instructor_about.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+        $(document).ready(function () {
+            $('#table2').DataTable();
+        });
+        $(document).ready(function () {
+            $('#table3').DataTable();
+        });
+    </script>
+    </script>
+    <title>One Pacific Health Club</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="#">
+                Instructors
+            </a>
+            <a class="nav-link link text-white">
+                Classes
+            </a>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle w-100 login text-white" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="member_login.html">Member</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="instructor_login.html">Instructor</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="admin_login.html">Admin</a>
+                </div>
+            </li>
+            <a>
+                <button type="button" class="btn btn-outline-info">Register</button>
+            </a>
+        </span>
+
+    </nav>
+
+    <main>
+        <div>
+            <div class="first">
+                <h1 class="text-center p-t-10 p-b-10">
+                    Meet Our Instructors
+                </h1>
+                <p class="text-center p-b-10 lead fs-28">We have over 40 of professional instructors to conduct the classes.</p>
+
+                <div id="instructorCarousel" class="carousel slide multi-item-carousel mx-auto" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#instructorCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#instructorCarousel" data-slide-to="1"></li>
+                        <li data-target="#instructorCarousel" data-slide-to="2"></li>
+                        <li data-target="#instructorCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="item__third">
+                                <img src="img/instructor-1.webp" class="d-block mx-auto" alt="Instructor 1">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Bob Chong</h5>
+                                    <p class="lead fs-16">Three-time champion of Malaysian National Weightlifting
+                                        Competition.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item__third">
+                                <img src="img/instructor-2.jpg" class="d-block mx-auto" alt="Instructor 2">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>John Doe</h5>
+                                    <p class="lead fs-16">2017 Malaysian Gymnastic Competition champion.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item__third">
+                                <img src="img/instructor-3.jpg" class="d-block mx-auto" alt="Instructor 3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Bill Nye</h5>
+                                    <p class="lead fs-16">Professional yoga practitioner with over 30 years of
+                                        experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="item__third">
+                                <img src="img/instructor-4.jpg" class="d-block mx-auto" alt="Instructor 3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Anne Green</h5>
+                                    <p class="lead fs-16">Malaysian representative for International Women Triathlon
+                                        Championship.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#instructorCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#instructorCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h2 class="text-center m-t-60">
+                    Instructor List
+                </h2>
+                <p class="text-center p-b-10 lead fs-24">Explore our instructors!</p>
+                <div class="table-section">
+                    <table cellspacing="0" class="table table-bordered table-hover table-inverse table-striped w-100"
+                        id="example" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Instructor ID</th>
+                                <th>Name</th>
+                                <th>Profile</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>I02592</td>
+                                <td>Foster Miller</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02299</td>
+                                <td>Shannon Maldonado</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02909</td>
+                                <td>Julius Snyder</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02894</td>
+                                <td>Son Valentine</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02790</td>
+                                <td>Anton Daniels</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02890</td>
+                                <td>Jeremy Strong</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02453</td>
+                                <td>Evangelina Carter</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02204</td>
+                                <td>Traci Dunlap</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02512</td>
+                                <td>Lacey Richmond</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02096</td>
+                                <td>Margarita Underwood</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02810</td>
+                                <td>Monroe Key</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02387</td>
+                                <td>Hobert Odonnell</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02350</td>
+                                <td>King Jennings</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02131</td>
+                                <td>Jesse Baxter</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02669</td>
+                                <td>Leon Hayden</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02894</td>
+                                <td>Jean Stephens</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02910</td>
+                                <td>Alva Jacobs</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02735</td>
+                                <td>Lamar Cannon</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02389</td>
+                                <td>Wm Cabrera</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02339</td>
+                                <td>Hannah Leon</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02057</td>
+                                <td>Shirley Floyd</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02222</td>
+                                <td>Oscar Warren</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02703</td>
+                                <td>Josie Ho</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02852</td>
+                                <td>Leroy Noble</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02709</td>
+                                <td>Viola Grant</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02092</td>
+                                <td>Camille Wong</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02485</td>
+                                <td>Luis Dorsey</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02151</td>
+                                <td>Lupe Gaines</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02450</td>
+                                <td>Noelle Pittman</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02251</td>
+                                <td>Karla Orr</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02276</td>
+                                <td>Elroy Hendrix</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02687</td>
+                                <td>Jefferson Crane</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02504</td>
+                                <td>Katherine Hansen</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02173</td>
+                                <td>Dena Roberts</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02136</td>
+                                <td>Juliet Guzman</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02186</td>
+                                <td>Barney Drake</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02201</td>
+                                <td>Noemi Frederick</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02654</td>
+                                <td>Mack Werner</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02847</td>
+                                <td>Roberto Rogers</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02214</td>
+                                <td>Claudine Wells</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02576</td>
+                                <td>Dianna Coleman</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02195</td>
+                                <td>Mae Barton</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02781</td>
+                                <td>Garfield Rodriguez</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02843</td>
+                                <td>Ola Rosario</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02416</td>
+                                <td>Trenton Wall</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02184</td>
+                                <td>Micah Williams</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02398</td>
+                                <td>Felipe Gilbert</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02923</td>
+                                <td>Vilma Blake</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02750</td>
+                                <td>Jackson Mayo</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                            <tr>
+                                <td>I02284</td>
+                                <td>Mohamed Washington</td>
+                                <td><a href='profile.html'>Info</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer">About Us</a></li>
+                        <li><a href="#footer">Instructor List</a></li>
+                        <li><a href="#footer">Class List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
