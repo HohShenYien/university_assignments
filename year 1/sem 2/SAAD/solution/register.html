@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/register.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+    <title>Member Registration</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="instructor_about_1.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white" href="class_about_1.html">
+                Classes
+            </a>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle w-100 login text-white" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="member_login.html">Member</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="instructor_login.html">Instructor</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="admin_login.html">Admin</a>
+                </div>
+            </li>
+            <a>
+                <button type="button" class="btn btn-outline-info font-weight-bold">Register</button>
+            </a>
+        </span>
+
+    </nav>
+    <div class="container the-form">
+        <h2 class="font-weight-bold text-center m-t-20 m-b-10">Member Registration</h2>
+        <div class="text-center">
+            <img src="img/user.png" id="pfp" class="text-center" />
+            <div class="text-center m-b-20 m-l-60">
+                <input type="file" id="myFile" name="filename">
+            </div>
+        </div>
+        <form class="p-l-40">
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label for="inputFirstName">First Name</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-font myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="John">
+                    </div>
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="inputLastName">Last Name</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-font myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Doe">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputEmail">Email</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15">@</i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="johndoe@gmail.com">
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputPhone">Phone Number</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">+60</div>
+                        </div>
+                        <input type="text" class="form-control" id="inputPhone" placeholder="12-3378610">
+                    </div>
+                </div>
+
+                <div class="form-group col-md-2">
+                    <label for="inputGender">Gender</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-venus-mars myIcon"></i></div>
+                        </div>
+                        <select id="inputGender" class="form-control">
+
+                            <option selected>Choose...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <p class="fs-18 font-weight-bold">Date of Birth</p>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="inputDay">Day</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-calendar-o myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputDay" placeholder="10">
+                    </div>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputMonth">Month</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-calendar-o myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputMonth" placeholder="2">
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputYear">Year</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-calendar-o myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputYear" placeholder="2000">
+                    </div>
+                </div>
+            </div>
+
+            <p class="fs-18 font-weight-bold">Address</p>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="inputStreet">Street</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-road myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputStreet" placeholder="Jalan Manis">
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputStreet">City</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-building-o myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Cheras">
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputState">State</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-map-o myIcon"></i></div>
+                        </div>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Johor</option>
+                            <option>Kedah</option>
+                            <option>Kelantan</option>
+                            <option>Kuala Lumpur</option>
+                            <option>Labuan</option>
+                            <option>Melaka</option>
+                            <option>Negeri Sembilan</option>
+                            <option>Pahang</option>
+                            <option>Perak</option>
+                            <option>Perlis</option>
+                            <option>Pulau Pinang</option>
+                            <option>Putrajaya</option>
+                            <option>Sabah</option>
+                            <option>Sarawak</option>
+                            <option>Selangor</option>
+                            <option>Terengganu</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Postcode</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text myForm"><i class="fs-15 fa fa-map-marker myIcon"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="inputZip" placeholder="56100">
+                    </div>
+                </div>
+            </div>
+            <p class="fs-18 font-weight-bold">Payment</p>
+            <p class="fs-16">You must pay an annual fees of <b>RM300</b> to be a member of One Pacific Health Club.</p>
+            <p class="fs-16">Are you a senior citizen or a student? You can enjoy a discount of 20% by uploading you IC or student card.</p>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label m-r-20" for="inlineRadio1">Student</label>
+                <input type="file" id="myFile" name="filename">
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label m-r-20" for="inlineRadio2">Senior citizen</label>
+                <input type="file" id="myFile" name="filename">
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" checked>
+                <label class="form-check-label" for="inlineRadio3">No</label>
+              </div>
+              <p class="fs-16 font-weight-bold">Payment Method</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                    checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    <img src="img/debitCard.png" alt="debit card" class="formImg" />
+                    Debit card
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    <img src="img/creditCard.png" alt="credit card" class="formImg" />
+                    Visa
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                <label class="form-check-label" for="exampleRadios3">
+                    <img src="img/TnG.png" alt="touch and go" class="formImg" />
+                    Touch n' Go
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+                <label class="form-check-label" for="exampleRadios4">
+                    <img src="img/fpx.png" alt="online banking" class="formImg" />
+                    Online Banking
+                </label>
+            </div>
+            <button class="btn btn-success m-l-20">Pay</button>
+            <div class="row m-b-30 m-t-30">
+                <div class="col text-center">
+                    <button class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_1.html">About Us</a></li>
+                        <li><a href="instructor_about_1.html#instructor-list">Instructor List</a></li>
+                        <li><a href="class_about_1.html#class-list">Class List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

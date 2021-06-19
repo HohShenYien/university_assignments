@@ -1,0 +1,46 @@
+.btn-outline-info {
+    border-color: #FFD700;
+    background-color: #FFD700;
+    border-width: 2px;
+    color: #000000;
+}
+
+#pfp {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    background-color: rgba(152, 251, 152, 0.4);
+}
+
+
+.the-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row {
+    margin-left: auto;
+    margin-right: auto;
+}
+.myForm {
+    height: 38px !important;
+    width: 38px !important;
+  }
+  
+  .myIcon {
+    position: absolute;
+    left: -1px;
+    top: 1px;
+  }
+
+.formImg {
+    width: 100px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
