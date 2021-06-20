@@ -1,0 +1,68 @@
+html {
+    max-width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.first {
+    position: relative; 
+    width: 100%;
+    height: 500px;
+}
+
+.first::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('../img/gym.jpg');
+    background-size: cover;
+    opacity: .7;
+    content: "";
+    z-index: -1;
+}
+
+.about {
+    color: white;
+}
+
+.about-txt {
+    margin-top: 30px;
+    background-color: rgba( 211,211,211, 0.7);
+    border-radius: 20px;;
+}
+
+.second {
+    width: 100%;
+    margin-right: 0 !important;
+    background-color: rgba(0,255,255, 0.3);
+}
+
+.equipment {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.myAuto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.people-face {
+    height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.comment {
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba( 211,211,211, 0.7);
+    border-radius: 30px;
+}
