@@ -1,0 +1,23 @@
+.user-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.mylink:link {
+  text-decoration: none;
+}
+
+.mylink:visited {
+  text-decoration: none;
+}
+
+.mylink:hover {
+  text-decoration: none;
+}
+
+.mylink:active {
+  text-decoration: none;
+}
