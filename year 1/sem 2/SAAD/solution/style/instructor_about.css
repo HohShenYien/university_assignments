@@ -55,8 +55,8 @@
 
 .carousel-control-next-icon:after {
     position: absolute;
-    top: -15px;
-    left: 5px;
+    top: -12px;
+    left: 6px;
     content: '>';
     font-size: 35px;
     color: black;
@@ -64,8 +64,8 @@
 
 .carousel-control-prev-icon:after {
     position: absolute;
-    top: -15px;
-    left: 4px;
+    top: -12px;
+    left: 3px;
     content: '<';
     font-size: 35px;
     color: black;
