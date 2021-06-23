@@ -43,10 +43,10 @@
             <span class="text-white">One Pacific Health Club</span>
         </a>
         <span class="navbar-nav ml-auto nav-item">
-            <a class="nav-link link text-white" href="#">
+            <a class="nav-link link text-white" href="instructor_about_2.html">
                 Instructors
             </a>
-            <a class="nav-link link text-white" href="class_about_1.html">
+            <a class="nav-link link text-white" href="class_about_2.html">
                 Classes
             </a>
             <li class="dropdown m-l-20 p-r-10">
@@ -59,12 +59,9 @@
                     <a class="dropdown-item font-weight-bold" href="#">
                         <i href="#" class="fa fa-user-circle small-icon"></i>Profile
                     </a>
-                    <a class="dropdown-item" href="member_login.html">
-                        <i href="#" class="fa fa-edit small-icon"></i>Edit Profile
+                    <a class="dropdown-item" href="member_edit_profile.html">
+                        <i href="member_edit_profile.html" class="fa fa-edit small-icon"></i>Edit Profile
                     </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="instructor_login.html">View Instructors</a>
-                    <a class="dropdown-item" href="instructor_login.html">View Classes</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalFeedback">Provide
                         Feedback</a>
@@ -74,167 +71,144 @@
             </li>
         </span>
     </nav>
-    <main>
-        <div class="text-center">
-            <img src="img/ah-chong.jpg" id="pfp" class="text-center m-t-20" />
+    <main class="p-t-20 p-b-20 text-center">
+        <img src="img/ah-chong.jpg" id="pfp" class="text-center m-t-20 m-b-30 mx-auto" />
+        <h1 class="m-b-20">Ah Chong</h1>
+        <div class="text-center my-box p-t-20 p-b-20">
+            <h2 class="m-b-20">Personal Info</h2>
+            <table class="table personal-info mx-auto">
+                <tbody>
+                    <tr class="finance-row"> 
+                        <th scope="row">Name</th>
+                        <td colspan="4">Wan Jun Chong</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Email</th>
+                        <td colspan="4">ahchong99@gmail.com</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Phone Number</th>
+                        <td colspan="4">+6012-85917201</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Gender</th>
+                        <td colspan="4">Male</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Birthday</th>
+                        <td colspan="4">14 July, 1985</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Address</th>
+                        <td colspan="4">No. 7, Jalan Manila, Taman Kelana, Cheras, 57000, Kuala Lumpur</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <form class="p-l-40">
-            <div class="form-row">
-                <div class="form-group col-md-5">
-                    <label for="inputFirstName">First Name</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-font myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputFirstName" placeholder="John">
-                    </div>
-                </div>
-                <div class="form-group col-md-5">
-                    <label for="inputLastName">Last Name</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-font myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputLastName" placeholder="Doe">
-                    </div>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-4">
-                    <label for="inputEmail">Email</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15">@</i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputEmail" placeholder="johndoe@gmail.com">
-                    </div>
-                </div>
-                <div class="form-group col-md-4">
-                    <label for="inputPhone">Phone Number</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">+60</div>
-                        </div>
-                        <input type="text" class="form-control" id="inputPhone" placeholder="12-3378610">
-                    </div>
-                </div>
 
-                <div class="form-group col-md-2">
-                    <label for="inputGender">Gender</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-venus-mars myIcon"></i></div>
-                        </div>
-                        <select id="inputGender" class="form-control">
+        <div class="text-center my-box p-t-20 p-b-20 m-t-30">
+            <h2 class="m-b-20">Personal Class Booked</h2>
+            <table class="table table-hover table-striped table-bordered mx-auto other-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Instructor</th>
+                        <th scope="col">Class</th>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Anne Green</th>
+                        <td>Aerobic</td>
+                        <td>Tuesday</td>
+                        <td>3:00 p.m. - 5:00 p.m.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-                            <option selected hidden>Choose...</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                        </select>
-                    </div>
+        <div class="text-center my-box p-t-20 p-b-20 m-t-30">
+            <h2 class="m-b-20">Past Transactions</h2>
+            <table class="table table-hover table-striped table-bordered mx-auto other-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Amount (RM)</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Receipt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000.00</td>
+                        <td>10 January, 2021</td>
+                        <td><a href="document/receipt.pdf">Receipt</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-                </div>
-            </div>
-            <p class="fs-18 font-weight-bold">Date of Birth</p>
-            <div class="form-row">
-                <div class="form-group col-md-2">
-                    <label for="inputDay">Day</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-calendar-o myIcon"></i></div>
+        <!--Modals-->
+        <div class="modal fade" id="modalFeedback" tabindex="-1" role="dialog" aria-labelledby="modalFeedback"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Feedback</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
-                        <input type="text" class="form-control" id="inputDay" placeholder="10">
-                    </div>
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputMonth">Month</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-calendar-o myIcon"></i></div>
+                        <div class="modal-body">
+                            <div class="container d-flex justify-content-center">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mybox">
+                                            <div class="mybox-body text-center"> 
+                                                <span class="myratings"><i class="fa fa-smile-o fs-70 my-smile"></i></span>
+                                                <h4 class="mt-1 mx-auto">Rate us</h4>
+                                                <fieldset class="rating">
+                                                    <input class="the-rating" type="radio" id="star5" name="rating" value="5"/>
+                                                        <label class="full the-rating" for="star5" title="Awesome - 5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star4half" name="rating" value="4.5"/>
+                                                        <label class="half the-rating" for="star4half"
+                                                        title="Pretty good - 4.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full the-rating" for="star4"
+                                                        title="Pretty good - 4 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star3half" name="rating" value="3.5" />
+                                                        <label class="half the-rating" for="star3half" title="Meh - 3.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full the-rating" for="star3" title="Meh - 3 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star2half" name="rating" value="2.5" />
+                                                        <label class="half the-rating" for="star2half"
+                                                        title="Kinda bad - 2.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full the-rating" for="star2" title="Kinda bad - 2 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star1half" name="rating" value="1.5" />
+                                                        <label class="half the-rating" for="star1half" title="Meh - 1.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full the-rating" for="star1"
+                                                        title="Terrible - 1 star"></label>
+                                                    <input class="the-rating" type="radio" id="starhalf" name="rating" value="0.5" />
+                                                        <label class="half the-rating" for="starhalf"
+                                                        title="Terrible - 0.5 stars"></label>
+                                                    <input type="radio" class="reset-option" name="rating"
+                                                        value="reset" checked="checked"/>
+                                                </fieldset>
+                                                
+                                                <textarea class="form-control" id="my-text" rows="3" placeholder="Feedback"></textarea>
+                                                <button class="btn btn-primary m-t-20">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <input type="text" class="form-control" id="inputMonth" placeholder="2">
-                    </div>
-                </div>
-                <div class="form-group col-md-3">
-                    <label for="inputYear">Year</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-calendar-o myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputYear" placeholder="2000">
                     </div>
                 </div>
             </div>
 
-            <p class="fs-18 font-weight-bold">Address</p>
-            <div class="form-row">
-                <div class="form-group col-md-3">
-                    <label for="inputStreet">Street</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-road myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputStreet" placeholder="Jalan Manis">
-                    </div>
-                </div>
-                <div class="form-group col-md-3">
-                    <label for="inputStreet">City</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-building-o myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputCity" placeholder="Cheras">
-                    </div>
-                </div>
-                <div class="form-group col-md-3">
-                    <label for="inputState">State</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-map-o myIcon"></i></div>
-                        </div>
-                        <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>Johor</option>
-                            <option>Kedah</option>
-                            <option>Kelantan</option>
-                            <option>Kuala Lumpur</option>
-                            <option>Labuan</option>
-                            <option>Melaka</option>
-                            <option>Negeri Sembilan</option>
-                            <option>Pahang</option>
-                            <option>Perak</option>
-                            <option>Perlis</option>
-                            <option>Pulau Pinang</option>
-                            <option>Putrajaya</option>
-                            <option>Sabah</option>
-                            <option>Sarawak</option>
-                            <option>Selangor</option>
-                            <option>Terengganu</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputZip">Postcode</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-map-marker myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputZip" placeholder="56100">
-                    </div>
-                </div>
-            </div>
-            <p class="fs-18 font-weight-bold">Account</p>
-            <div class="form-row">
-                <div class="form-group col-md-4">
-                    <label for="inputEmail">Username</label>
-                    <div class="input-group mb-2">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text myForm"><i class="fs-15 fa fa-user myIcon"></i></div>
-                        </div>
-                        <input type="text" class="form-control" id="inputEmail" placeholder="John Doe">
-                    </div>
-                </div>
-            </div>
     </main>
     <!-- Site footer -->
     <footer class="site-footer" id="footer">
@@ -249,9 +223,9 @@
                 <div class="col-xs-6 col-md-3">
                     <h6>Quick Links</h6>
                     <ul class="footer-links">
-                        <li><a href="about_1.html">About Us</a></li>
-                        <li><a href="#instructor-list">Instructor List</a></li>
-                        <li><a href="class_about_1.html#class-list">Class List</a></li>
+                        <li><a href="about_2.html">About Us</a></li>
+                        <li><a href="instructor_about_2.html">Instructor List</a></li>
+                        <li><a href="class_about_2.html">Class List</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-3">
@@ -283,4 +257,5 @@
     </footer>
 
 </body>
+
 </html>

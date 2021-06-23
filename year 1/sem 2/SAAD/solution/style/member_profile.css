@@ -1,30 +1,50 @@
 #pfp {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.the-form {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-row {
-    margin-left: auto;
-    margin-right: auto;
-}
-.myForm {
-    height: 38px !important;
-    width: 38px !important;
-  }
-  
 .myIcon {
-    position: absolute;
-    left: -1px;
-    top: 1px;
-  }
+  position: absolute;
+  left: -1px;
+  top: 1px;
+}
 
 .formImg {
-    width: 100px;
+  width: 100px;
+}
+
+.my-box {
+  border-radius: 30px;
+  background-color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: grey solid 1px;
+}
+
+.personal-info {
+  width: 70%;
+}
+
+.finance-row td,
+.finance-row th {
+  text-align: left;
+}
+
+.finance-row th {
+  font-size: 14px;
+}
+
+.finance-row td:nth-child(1) {
+  width: 30%;
+}
+
+.finance-row td:nth-child(2) {
+  width: 70%;
+}
+
+.other-table {
+  width: 70%;
 }

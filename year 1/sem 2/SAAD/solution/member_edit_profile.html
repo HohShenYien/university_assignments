@@ -1,4 +1,333 @@
-<div class="text-center m-b-20 m-t-20">
-    <input type="button" id="loadFileXml" value="Change profile picture" onclick="document.getElementById('file').click();" />
-    <input type="file" style="display:none;" id="file" name="file"/>
-</div>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/member_profile.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
+    <link href="style/member_edit_profile.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+    <title>Profile Edit</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="member.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="instructor_about_2.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white" href="class_about_2.html">
+                Classes
+            </a>
+            <li class="dropdown m-l-20 p-r-10">
+                <a class="dropdown-toggle w-100 login text-white mylink" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="user-pic" src="img/ah-chong.jpg">
+                    Ah Chong
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="member_profile.html">
+                        <i href="#" class="fa fa-user-circle small-icon"></i>Profile
+                    </a>
+                    <a class="dropdown-item font-weight-bold " href="member_edit_profile.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit Profile
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="instructor_about_2.html">View Instructors</a>
+                    <a class="dropdown-item" href="class_about_2.html">View Classes</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalFeedback">Provide
+                        Feedback</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">Log out</a>
+                </div>
+            </li>
+        </span>
+    </nav>
+    <main class="p-t-20 p-b-20 text-center">
+        <div class="text-center my-box p-t-20 p-b-20">
+            <img src="img/ah-chong.jpg" id="pfp" class="text-center m-t-20 mx-auto" />
+            <div class="text-center m-b-20 m-t-20">
+                <input type="button" id="loadFileXml" value="Change profile picture"
+                    onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file" />
+            </div>
+            <table class="table personal-info mx-auto">
+                <tbody>
+                    <tr class="finance-row">
+                        <th scope="row">Username</th>
+                        <td colspan="4"><input type="text" class="form-control" id="inputEmail" value="Ah Chong"></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">First Name</th>
+                        <td colspan="4"><input type="text" class="form-control" id="inputEmail" value="Wan Jun"></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Last Name</th>
+                        <td colspan="4"><input type="text" class="form-control" id="inputEmail" value="Chong"></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Email</th>
+                        <td colspan="4"><input type="text" class="form-control" id="inputEmail" value="ahchong99@gmail.com"></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Phone Number</th>
+                        <td colspan="4"><input type="text" class="form-control" id="inputEmail" value="+6012-85917201"></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Gender</th>
+                        <td colspan="4">
+                            <select id="inputGender" class="form-control">
+                                <option selected>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Date of Birth</th>
+                        <td colspan="4">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Day</th>
+                                    <td><input type="text" class="form-control" id="inputDay" value="14"></td>
+                                </tr>
+                                <tr>
+                                    <th>Month</th>
+                                    <td>
+                                    <select id="inputMonth" class="form-control">
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option selected="selected">July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <th>Year</th>
+                                    <td><input type="text" class="form-control" id="inputDay" value="1985"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Address</th>
+                        <td colspan="4">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Street</th>
+                                    <td><input type="text" class="form-control" id="inputDay" value="No.7, Jalan Manila"></td>
+                                </tr>
+                                <tr>
+                                    <th>City</th>
+                                    <td><input type="text" class="form-control" id="inputDay" value="Taman Kelana, Cheras"></td>
+                                </tr>
+                                <tr>
+                                    <th>State</th>
+                                    <td>
+                                        <select id="inputState" class="form-control">
+                                            <option selected="selected">Kuala Lumpur</option>
+                                            <option>Johor</option>
+                                            <option>Kedah</option>
+                                            <option>Kelantan</option>
+                                            <option>Labuan</option>
+                                            <option>Melaka</option>
+                                            <option>Negeri Sembilan</option>
+                                            <option>Pahang</option>
+                                            <option>Perak</option>
+                                            <option>Perlis</option>
+                                            <option>Pulau Pinang</option>
+                                            <option>Putrajaya</option>
+                                            <option>Sabah</option>
+                                            <option>Sarawak</option>
+                                            <option>Selangor</option>
+                                            <option>Terengganu</option>
+                                        </select>
+                                </tr>
+                                <tr>
+                                    <th>Postcode</th>
+                                    <td><input type="text" class="form-control" id="inputDay" value="57000"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">New password</th>
+                        <td colspan="4"><input type="text" class="form-control" id="inputEmail"></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Password confirmation</th>
+                        <td colspan="4"><input type="password" class="form-control" id="inputEmail"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row w-100 text-center lastBtn p-l-200">
+                <button class="btn btn-secondary m-r-200">Cancel</button>
+                <button class="btn btn-success">Confirm</button>
+            </div>
+        </div>
+
+        <!--Modals-->
+        <div class="modal fade" id="modalFeedback" tabindex="-1" role="dialog" aria-labelledby="modalFeedback"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="exampleModalLabel">Feedback</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mybox">
+                                        <div class="mybox-body text-center">
+                                            <span class="myratings"><i class="fa fa-smile-o fs-70 my-smile"></i></span>
+                                            <h4 class="mt-1 mx-auto">Rate us</h4>
+                                            <fieldset class="rating">
+                                                <input class="the-rating" type="radio" id="star5" name="rating"
+                                                    value="5" />
+                                                <label class="full the-rating" for="star5"
+                                                    title="Awesome - 5 stars"></label>
+                                                <input class="the-rating" type="radio" id="star4half" name="rating"
+                                                    value="4.5" />
+                                                <label class="half the-rating" for="star4half"
+                                                    title="Pretty good - 4.5 stars"></label>
+                                                <input class="the-rating" type="radio" id="star4" name="rating"
+                                                    value="4" />
+                                                <label class="full the-rating" for="star4"
+                                                    title="Pretty good - 4 stars"></label>
+                                                <input class="the-rating" type="radio" id="star3half" name="rating"
+                                                    value="3.5" />
+                                                <label class="half the-rating" for="star3half"
+                                                    title="Meh - 3.5 stars"></label>
+                                                <input class="the-rating" type="radio" id="star3" name="rating"
+                                                    value="3" />
+                                                <label class="full the-rating" for="star3"
+                                                    title="Meh - 3 stars"></label>
+                                                <input class="the-rating" type="radio" id="star2half" name="rating"
+                                                    value="2.5" />
+                                                <label class="half the-rating" for="star2half"
+                                                    title="Kinda bad - 2.5 stars"></label>
+                                                <input class="the-rating" type="radio" id="star2" name="rating"
+                                                    value="2" />
+                                                <label class="full the-rating" for="star2"
+                                                    title="Kinda bad - 2 stars"></label>
+                                                <input class="the-rating" type="radio" id="star1half" name="rating"
+                                                    value="1.5" />
+                                                <label class="half the-rating" for="star1half"
+                                                    title="Meh - 1.5 stars"></label>
+                                                <input class="the-rating" type="radio" id="star1" name="rating"
+                                                    value="1" />
+                                                <label class="full the-rating" for="star1"
+                                                    title="Terrible - 1 star"></label>
+                                                <input class="the-rating" type="radio" id="starhalf" name="rating"
+                                                    value="0.5" />
+                                                <label class="half the-rating" for="starhalf"
+                                                    title="Terrible - 0.5 stars"></label>
+                                                <input type="radio" class="reset-option" name="rating" value="reset"
+                                                    checked="checked" />
+                                            </fieldset>
+
+                                            <textarea class="form-control" id="my-text" rows="3"
+                                                placeholder="Feedback"></textarea>
+                                            <button class="btn btn-primary m-t-20">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_2.html">About Us</a></li>
+                        <li><a href="instructor_about_2.html">Instructor List</a></li>
+                        <li><a href="class_about_2.html#class-list">Class List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="member.html">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
