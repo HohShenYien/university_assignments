@@ -1,0 +1,32 @@
+.my-dropdown {
+  border-width: 2px;
+  border-color: blue;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.my-dropdown:focus {
+  color: blue;
+  border-color: blue;
+  border-width: 2px;
+}
+
+.table {
+  background-color: white;
+}
+
+.scrollable {
+  height: 280px;
+  overflow-y: scroll;
+}
+
+.main-block {
+  background-color: rgba(192, 192, 192, 0.3);
+  border-radius: 5px;
+  height: 450px;
+}
+
+.no-under {
+    text-decoration: none;
+}

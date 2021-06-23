@@ -1,446 +1,100 @@
-<table cellspacing="0" class="table table-bordered table-hover table-inverse table-striped w-100"
-                id="example" width="100%">
-                <thead>
-                    <tr>
-                        <th>Class</th>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>More info</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Monday</td>
-                        <td>8:00 AM - 10:00 AM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Monday</td>
-                        <td>12:00 PM - 2:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Monday</td>
-                        <td>2:30 PM - 5:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Monday</td>
-                        <td>5:30 PM - 9:00 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Tuesday</td>
-                        <td>12:00 PM - 2:00 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Tuesday</td>
-                        <td>3:00 PM - 5:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Thursday</td>
-                        <td>12:00 PM - 1:00 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Thursday</td>
-                        <td>2:00 PM - 4:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Friday</td>
-                        <td>1:00 PM - 3:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Friday</td>
-                        <td>4:30 PM - 7:00 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Saturday</td>
-                        <td>11:00 AM - 1:00 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Saturday</td>
-                        <td>1:00 PM - 3:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Aerobic</td>
-                        <td>Saturday</td>
-                        <td>4:30 PM - 7:30 PM</td>
-                        <td><a href='class_profile.html'>Aerobic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Tuesday</td>
-                        <td>1:00 PM - 3:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Tuesday</td>
-                        <td>5:00 PM - 8:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Wednesday</td>
-                        <td>12:00 PM - 2:30 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Wednesday</td>
-                        <td>2:30 PM - 5:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Wednesday</td>
-                        <td>5:00 PM - 7:30 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Thursday</td>
-                        <td>8:00 AM - 9:00 AM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Thursday</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Thursday</td>
-                        <td>12:00 PM - 2:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Friday</td>
-                        <td>12:00 PM - 2:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Friday</td>
-                        <td>3:00 PM - 6:00 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Saturday</td>
-                        <td>8:00 AM - 10:00 AM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Saturday</td>
-                        <td>11:00 AM - 1:30 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Yoga</td>
-                        <td>Saturday</td>
-                        <td>2:30 PM - 4:30 PM</td>
-                        <td><a href='class_profile.html'>Yoga</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Monday</td>
-                        <td>12:00 PM - 2:30 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Monday</td>
-                        <td>3:30 PM - 6:00 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Tuesday</td>
-                        <td>8:00 AM - 10:00 AM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Tuesday</td>
-                        <td>11:00 AM - 12:00 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Tuesday</td>
-                        <td>12:00 PM - 2:30 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Wednesday</td>
-                        <td>8:00 AM - 10:30 AM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Wednesday</td>
-                        <td>12:30 PM - 3:30 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Wednesday</td>
-                        <td>6:30 PM - 9:00 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Thursday</td>
-                        <td>1:00 PM - 3:00 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Thursday</td>
-                        <td>3:00 PM - 6:30 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Saturday</td>
-                        <td>8:00 AM - 9:00 AM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Saturday</td>
-                        <td>12:00 PM - 2:00 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Taichi</td>
-                        <td>Saturday</td>
-                        <td>5:00 PM - 8:30 PM</td>
-                        <td><a href='class_profile.html'>Taichi</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Tuesday</td>
-                        <td>12:00 PM - 3:00 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Tuesday</td>
-                        <td>6:00 PM - 8:00 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Wednesday</td>
-                        <td>10:00 AM - 12:30 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Wednesday</td>
-                        <td>2:30 PM - 6:00 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Thursday</td>
-                        <td>8:00 AM - 10:00 AM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Thursday</td>
-                        <td>1:00 PM - 4:00 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Friday</td>
-                        <td>8:00 AM - 10:30 AM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Friday</td>
-                        <td>1:30 PM - 4:30 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Friday</td>
-                        <td>6:30 PM - 9:00 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Saturday</td>
-                        <td>9:00 AM - 11:30 AM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Saturday</td>
-                        <td>1:30 PM - 3:30 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Weightlift</td>
-                        <td>Saturday</td>
-                        <td>5:30 PM - 7:30 PM</td>
-                        <td><a href='class_profile.html'>Weightlift</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Monday</td>
-                        <td>11:00 AM - 12:00 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Monday</td>
-                        <td>3:00 PM - 6:30 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Wednesday</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Wednesday</td>
-                        <td>3:00 PM - 5:30 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Wednesday</td>
-                        <td>5:30 PM - 9:00 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Thursday</td>
-                        <td>12:00 PM - 2:30 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Thursday</td>
-                        <td>5:30 PM - 9:00 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Friday</td>
-                        <td>11:00 AM - 1:30 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Friday</td>
-                        <td>4:30 PM - 7:00 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Saturday</td>
-                        <td>11:00 AM - 12:30 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Gymnastic</td>
-                        <td>Saturday</td>
-                        <td>1:30 PM - 5:00 PM</td>
-                        <td><a href='class_profile.html'>Gymnastic</a></td>
-                    </tr>
-                </tbody>
-            </table>
+Niko Delgado
+Azeem Holmes
+Ruth Kearns
+Earl Piper
+Mohamad Muir
+Huseyin Needham
+Justine Cassidy
+Anniyah Wooten
+Roberto Walter
+Rohan Leach
+Mindy Enriquez
+Amman Jarvis
+Kiaan Maguire
+Brent Doherty
+Adyan Kearney
+Rhona Smith
+Kristi Kumar
+Mack Bull
+Manon Hulme
+Augustus O'Doherty
+Menaal Blanchard
+Carmen Silva
+Ayub Merrill
+Elyas Senior
+Simran Herring
+Lennie Small
+Aleksander Paterson
+Barry Beasley
+Wallace Maynard
+Aneurin Sampson
+Keavy Singh
+Celia Wright
+Jareth Ingram
+Dylan Stark
+Alvin Valencia
+Johanna Moss
+Mylee Delarosa
+Cindy Joyce
+Bevan Wiggins
+Shyam Goodwin
+Anisa Galindo
+Maisie Draper
+Tariq Hayden
+Merlin Travers
+Muneeb Suarez
+Kirk Keith
+Kendal Savage
+Balraj Beck
+Samera Wilkerson
+Jace Keller
+Sana Black
+Elize Callaghan
+Arron Rollins
+Victoria Ryan
+Abubakr Hood
+Torin Bishop
+Sohaib Jefferson
+Minahil Nieves
+Katie-Louise Ball
+Iain Villarreal
+Sydney Witt
+Awais Luna
+Jules Huffman
+Abraham Justice
+Raymond Huber
+Bo Cash
+Khushi Fox
+Alissa Stafford
+Denise Sanford
+Moesha Reeves
+Caroline Mcconnell
+Martina Quintero
+Avneet Rice
+Osama Sierra
+Trey Bradshaw
+Aviana Mcgrath
+Chardonnay Marshall
+Sophia Navarro
+Ira Gamble
+Davina Schofield
+Kasim Wolf
+Livia Dougherty
+Theo Bell
+Asher Rivers
+Garry Timms
+Ayyub Cummings
+Arabella Howells
+Gregor East
+Elli Barker
+Mattie Macias
+Arthur Calhoun
+Jill Haas
+Sannah Curry
+Anushka Emerson
+Haydon White
+Hebe Lord
+Hazel Bowers
+Jason Gill
+Abbas Irvine
+Taya Burgess

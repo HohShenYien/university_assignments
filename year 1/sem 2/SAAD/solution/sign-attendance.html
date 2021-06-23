@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
+    <link href="style/sign-attendance.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            var t = $('#the-table').DataTable( {
+                "bLengthChange": false,
+                "info": false,
+                "pageLength": 30,
+                "columnDefs": [ {
+                    "orderable": false,
+                    "targets": 0
+                } ],
+                "order": [[ 1, 'asc' ]]
+            } );
+        
+            t.on( 'order.dt search.dt', function () {
+                t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+                    cell.innerHTML = i+1;
+                } );
+            } ).draw();
+        });
+    </script>
+    <title>One Pacific Health Club</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="instructor_page.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white font-weight-bold" href="attendance.html">
+                Attendance
+            </a>
+            <a class="nav-link link text-white" href="personal_class.html">
+                Personal Classes
+            </a>
+            <a class="nav-link link text-white" href="my_schedule.html">
+                My Schedules
+            </a>
+            <li class="dropdown m-l-20 p-r-10">
+                <a class="dropdown-toggle w-100 login text-white mylink" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="user-pic" src="img/bob-chong.png">
+                    Bob
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="member_profile.html">
+                        <i href="instructor_profile.html" class="fa fa-user-circle small-icon"></i>Profile
+                    </a>
+                    <a class="dropdown-item" href="instructor_edit_profile.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit Profile
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">Log out</a>
+                </div>
+            </li>
+        </span>
+
+    </nav>
+
+    <main>
+        <div class="p-l-50 p-r-50 p-t-20 p-b-30">
+            <div class="main-block p-t-10">
+                <h2 class="p-t-20 m-b-30 text-center">Sign Member Attendance</h2>
+                <div class="row m-l-150">
+                    <h4 class="font-weight-bold fs-24 p-t-3">Class: </h4>
+                    <a href="class_profile3.html" class="fs-24 m-r-50">Weightlift</a>
+                    <h4 class="font-weight-bold fs-24 p-t-3">Time: </h4>
+                    <p class="fs-24">12:00 p.m. - 2:00 p.m.</p>
+                </div>
+                <p class="fs-16 m-l-170 lead">PS: Please remind the members to scan with their member ID cards for
+                    attendance</p>
+                <div class="p-l-20 p-r-20">
+                    <table class="table table-bordered mx-auto" id="the-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Presence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Hoh Shen Yien</a></td>
+                                <td>
+                                    <label for="defaultCheck1" class="active"></label>
+                                    <input class="form-check-input m-l-20 active" type="checkbox" value=""
+                                        id="defaultCheck1" checked>
+                                </td>
+                            </tr>
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Ah Chong</a></td>
+                                <td>
+                                    <label for="defaultCheck2"></label>
+                                    <input class="form-check-input m-l-20 active" type="checkbox" value=""
+                                        id="defaultCheck2">
+                                </td>
+                            </tr>
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Elizabeth Cooke</a></td>
+                                <td>
+                                    <label for="defaultCheck3" class="active"></label>
+                                    <input class="form-check-input m-l-20 active" type="checkbox" value=""
+                                        id="defaultCheck3" checked>
+                                </td>
+                            </tr>
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Mei Ling</a></td>
+                                <td>
+                                    <label for="defaultCheck4" class="active"></label>
+                                    <input class="form-check-input m-l-20 active" type="checkbox" value=""
+                                        id="defaultCheck4" checked>
+                                </td>
+                            </tr>
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Niko Delgado</a></td>
+                                <td>
+                                    <label for="defaultCheck5" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck5" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Azeem Holmes</a></td>
+                                <td>
+                                    <label for="defaultCheck6" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck6" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Ruth Kearns</a></td>
+                                <td>
+                                    <label for="defaultCheck7" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck7">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Earl Piper</a></td>
+                                <td>
+                                    <label for="defaultCheck8" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck8">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Mohamad Muir</a></td>
+                                <td>
+                                    <label for="defaultCheck9" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck9" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Huseyin Needham</a></td>
+                                <td>
+                                    <label for="defaultCheck10" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck10">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Justine Cassidy</a></td>
+                                <td>
+                                    <label for="defaultCheck11" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck11">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Anniyah Wooten</a></td>
+                                <td>
+                                    <label for="defaultCheck12" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck12">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Roberto Walter</a></td>
+                                <td>
+                                    <label for="defaultCheck13" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck13">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Rohan Leach</a></td>
+                                <td>
+                                    <label for="defaultCheck14" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck14">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Mindy Enriquez</a></td>
+                                <td>
+                                    <label for="defaultCheck15" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck15">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Amman Jarvis</a></td>
+                                <td>
+                                    <label for="defaultCheck16" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck16">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Kiaan Maguire</a></td>
+                                <td>
+                                    <label for="defaultCheck17" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck17">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Brent Doherty</a></td>
+                                <td>
+                                    <label for="defaultCheck18" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck18">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Adyan Kearney</a></td>
+                                <td>
+                                    <label for="defaultCheck19" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck19">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Rhona Smith</a></td>
+                                <td>
+                                    <label for="defaultCheck20" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck20" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Kristi Kumar</a></td>
+                                <td>
+                                    <label for="defaultCheck21" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck21" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Mack Bull</a></td>
+                                <td>
+                                    <label for="defaultCheck22" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck22">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Manon Hulme</a></td>
+                                <td>
+                                    <label for="defaultCheck23" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck23">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Augustus O'Doherty</a></td>
+                                <td>
+                                    <label for="defaultCheck24" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck24">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Menaal Blanchard</a></td>
+                                <td>
+                                    <label for="defaultCheck25" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck25">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Carmen Silva</a></td>
+                                <td>
+                                    <label for="defaultCheck26" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck26" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Ayub Merrill</a></td>
+                                <td>
+                                    <label for="defaultCheck27" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck27">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Elyas Senior</a></td>
+                                <td>
+                                    <label for="defaultCheck28" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck28" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Simran Herring</a></td>
+                                <td>
+                                    <label for="defaultCheck29" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck29" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Lennie Small</a></td>
+                                <td>
+                                    <label for="defaultCheck30" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck30" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Aleksander Paterson</a></td>
+                                <td>
+                                    <label for="defaultCheck31" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck31">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Barry Beasley</a></td>
+                                <td>
+                                    <label for="defaultCheck32" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck32">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Wallace Maynard</a></td>
+                                <td>
+                                    <label for="defaultCheck33" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck33">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Aneurin Sampson</a></td>
+                                <td>
+                                    <label for="defaultCheck34" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck34">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Keavy Singh</a></td>
+                                <td>
+                                    <label for="defaultCheck35" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck35">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Celia Wright</a></td>
+                                <td>
+                                    <label for="defaultCheck36" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck36" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Jareth Ingram</a></td>
+                                <td>
+                                    <label for="defaultCheck37" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck37">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Dylan Stark</a></td>
+                                <td>
+                                    <label for="defaultCheck38" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck38" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Alvin Valencia</a></td>
+                                <td>
+                                    <label for="defaultCheck39" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck39">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Johanna Moss</a></td>
+                                <td>
+                                    <label for="defaultCheck40" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck40">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Mylee Delarosa</a></td>
+                                <td>
+                                    <label for="defaultCheck41" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck41" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Cindy Joyce</a></td>
+                                <td>
+                                    <label for="defaultCheck42" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck42">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Bevan Wiggins</a></td>
+                                <td>
+                                    <label for="defaultCheck43" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck43" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Shyam Goodwin</a></td>
+                                <td>
+                                    <label for="defaultCheck44" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck44" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Anisa Galindo</a></td>
+                                <td>
+                                    <label for="defaultCheck45" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck45">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Maisie Draper</a></td>
+                                <td>
+                                    <label for="defaultCheck46" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck46">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Tariq Hayden</a></td>
+                                <td>
+                                    <label for="defaultCheck47" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck47">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Merlin Travers</a></td>
+                                <td>
+                                    <label for="defaultCheck48" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck48" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Muneeb Suarez</a></td>
+                                <td>
+                                    <label for="defaultCheck49" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck49">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Kirk Keith</a></td>
+                                <td>
+                                    <label for="defaultCheck50" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck50">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Kendal Savage</a></td>
+                                <td>
+                                    <label for="defaultCheck51" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck51">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Balraj Beck</a></td>
+                                <td>
+                                    <label for="defaultCheck52" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck52">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Samera Wilkerson</a></td>
+                                <td>
+                                    <label for="defaultCheck53" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck53">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Jace Keller</a></td>
+                                <td>
+                                    <label for="defaultCheck54" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck54" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Sana Black</a></td>
+                                <td>
+                                    <label for="defaultCheck55" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck55">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Elize Callaghan</a></td>
+                                <td>
+                                    <label for="defaultCheck56" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck56" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Arron Rollins</a></td>
+                                <td>
+                                    <label for="defaultCheck57" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck57">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Victoria Ryan</a></td>
+                                <td>
+                                    <label for="defaultCheck58" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck58">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Abubakr Hood</a></td>
+                                <td>
+                                    <label for="defaultCheck59" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck59">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Torin Bishop</a></td>
+                                <td>
+                                    <label for="defaultCheck60" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck60">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Sohaib Jefferson</a></td>
+                                <td>
+                                    <label for="defaultCheck61" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck61" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Minahil Nieves</a></td>
+                                <td>
+                                    <label for="defaultCheck62" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck62" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Katie-Louise Ball</a></td>
+                                <td>
+                                    <label for="defaultCheck63" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck63">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Iain Villarreal</a></td>
+                                <td>
+                                    <label for="defaultCheck64" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck64" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Sydney Witt</a></td>
+                                <td>
+                                    <label for="defaultCheck65" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck65" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Awais Luna</a></td>
+                                <td>
+                                    <label for="defaultCheck66" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck66">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Jules Huffman</a></td>
+                                <td>
+                                    <label for="defaultCheck67" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck67">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Abraham Justice</a></td>
+                                <td>
+                                    <label for="defaultCheck68" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck68" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Raymond Huber</a></td>
+                                <td>
+                                    <label for="defaultCheck69" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck69" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Bo Cash</a></td>
+                                <td>
+                                    <label for="defaultCheck70" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck70">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Khushi Fox</a></td>
+                                <td>
+                                    <label for="defaultCheck71" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck71">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Alissa Stafford</a></td>
+                                <td>
+                                    <label for="defaultCheck72" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck72">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Denise Sanford</a></td>
+                                <td>
+                                    <label for="defaultCheck73" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck73">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Moesha Reeves</a></td>
+                                <td>
+                                    <label for="defaultCheck74" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck74">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Caroline Mcconnell</a></td>
+                                <td>
+                                    <label for="defaultCheck75" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck75" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Martina Quintero</a></td>
+                                <td>
+                                    <label for="defaultCheck76" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck76">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Avneet Rice</a></td>
+                                <td>
+                                    <label for="defaultCheck77" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck77" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Osama Sierra</a></td>
+                                <td>
+                                    <label for="defaultCheck78" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck78" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Trey Bradshaw</a></td>
+                                <td>
+                                    <label for="defaultCheck79" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck79" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Aviana Mcgrath</a></td>
+                                <td>
+                                    <label for="defaultCheck80" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck80">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Chardonnay Marshall</a></td>
+                                <td>
+                                    <label for="defaultCheck81" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck81">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Sophia Navarro</a></td>
+                                <td>
+                                    <label for="defaultCheck82" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck82">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Ira Gamble</a></td>
+                                <td>
+                                    <label for="defaultCheck83" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck83">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Davina Schofield</a></td>
+                                <td>
+                                    <label for="defaultCheck84" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck84">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Kasim Wolf</a></td>
+                                <td>
+                                    <label for="defaultCheck85" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck85">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Livia Dougherty</a></td>
+                                <td>
+                                    <label for="defaultCheck86" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck86">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Theo Bell</a></td>
+                                <td>
+                                    <label for="defaultCheck87" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck87" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Asher Rivers</a></td>
+                                <td>
+                                    <label for="defaultCheck88" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck88">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Garry Timms</a></td>
+                                <td>
+                                    <label for="defaultCheck89" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck89">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Ayyub Cummings</a></td>
+                                <td>
+                                    <label for="defaultCheck90" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck90" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Arabella Howells</a></td>
+                                <td>
+                                    <label for="defaultCheck91" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck91" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Gregor East</a></td>
+                                <td>
+                                    <label for="defaultCheck92" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck92">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Elli Barker</a></td>
+                                <td>
+                                    <label for="defaultCheck93" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck93">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Mattie Macias</a></td>
+                                <td>
+                                    <label for="defaultCheck94" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck94">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Arthur Calhoun</a></td>
+                                <td>
+                                    <label for="defaultCheck95" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck95" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Jill Haas</a></td>
+                                <td>
+                                    <label for="defaultCheck96" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck96">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Sannah Curry</a></td>
+                                <td>
+                                    <label for="defaultCheck97" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck97">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Anushka Emerson</a></td>
+                                <td>
+                                    <label for="defaultCheck98" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck98">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Haydon White</a></td>
+                                <td>
+                                    <label for="defaultCheck99" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck99">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Hebe Lord</a></td>
+                                <td>
+                                    <label for="defaultCheck100" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck100" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-green">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Hazel Bowers</a></td>
+                                <td>
+                                    <label for="defaultCheck101" class="active"></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck101" checked>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Jason Gill</a></td>
+                                <td>
+                                    <label for="defaultCheck102" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck102">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Abbas Irvine</a></td>
+                                <td>
+                                    <label for="defaultCheck103" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck103">
+                                </td>
+                            </tr>
+
+                            <tr class="bg-red">
+                                <td></td>
+                                <td><a href="member_profile_3.html" class="fs-20">Taya Burgess</a></td>
+                                <td>
+                                    <label for="defaultCheck104" class=""></label>
+                                    <input class="form-check-input m-l-20" type="checkbox" value="" id="defaultCheck104">
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="text-center m-t-20">
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Submit
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+    </main>
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              Submitted attendance successfully!
+            </div>
+            <div class="modal-footer">
+                <a type="button" class="btn btn-success" href="instructor_page.html">OK</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_2.html">About Us</a></li>
+                        <li><a href="member_profile_3.html">Member List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

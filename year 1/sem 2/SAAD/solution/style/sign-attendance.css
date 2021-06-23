@@ -1,0 +1,80 @@
+td:nth-child(1) {
+  width: 5%;
+}
+
+td:nth-child(2) {
+  width: 85%;
+}
+
+td:nth-child(3) {
+  width: 10%;
+}
+
+.table {
+  width: 80%;
+}
+
+.my-dropdown {
+  border-width: 2px;
+  border-color: blue;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.my-dropdown:focus {
+  color: blue;
+  border-color: blue;
+  border-width: 2px;
+}
+
+.table {
+  background-color: white;
+}
+
+.scrollable {
+  height: 280px;
+  overflow-y: scroll;
+}
+
+.main-block {
+  background-color: rgba(192, 192, 192, 0.3);
+  border-radius: 5px;
+  padding-bottom: 60px;
+}
+
+.no-under {
+  text-decoration: none;
+}
+
+.bg-green {
+  background-color: lightgreen;
+}
+
+.bg-green:hover {
+  background-color: rgb(144, 238, 144, 0.6);
+}
+
+.bg-red {
+  background-color: salmon;
+}
+
+.bg-red:hover {
+  background-color: rgba(250, 128, 114, 0.6);
+}
+
+.dataTables_filter {
+  margin-left: -480px;
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.color-g {
+    background-color: white;
+}
+
+
+.col-md-5 {
+    margin-right: -55px !important;
+}
