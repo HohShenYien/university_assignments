@@ -22,6 +22,7 @@
     <link href="style/style.css" rel="stylesheet">
     <link href="css/util.css" rel="stylesheet">
     <link href="style/member.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -55,15 +56,15 @@
                     Ah Chong
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="member_login.html">
-                        <i href="#" class="fa fa-user-circle small-icon"></i>Profile
+                    <a class="dropdown-item" href="member_profile.html">
+                        <i href="member_profile.html" class="fa fa-user-circle small-icon"></i>Profile
                     </a>
-                    <a class="dropdown-item" href="member_login.html">
+                    <a class="dropdown-item" href="#">
                         <i href="#" class="fa fa-edit small-icon"></i>Edit Profile
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="instructor_login.html">View Instructors</a>
-                    <a class="dropdown-item" href="instructor_login.html">View Classes</a>
+                    <a class="dropdown-item" href="#">View Instructors</a>
+                    <a class="dropdown-item" href="#">View Classes</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalFeedback">Provide
                         Feedback</a>
@@ -399,6 +400,61 @@
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="modalPay" tabindex="-1" role="dialog" aria-labelledby="modalPay" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Payment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h6>Outstanding balance: RM 760</h6>
+                            <div class="form-group row">
+                                <label for="inputQ" class="col-sm-4 col-form-label">Paying Amount:</label>
+                                <div class="col-sm-5">
+                                    <input type="number" class="form-control" id="inputQ" placeholder="RM...">
+                                </div>
+                            </div>
+                            <p class="fs-16 font-weight-bold">Payment Method</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                                    checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    <img src="img/debitCard.png" alt="debit card" class="formImg" />
+                                    Debit card
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    <img src="img/creditCard.png" alt="credit card" class="formImg" />
+                                    Visa
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                                <label class="form-check-label" for="exampleRadios3">
+                                    <img src="img/TnG.png" alt="touch and go" class="formImg" />
+                                    Touch n' Go
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+                                <label class="form-check-label" for="exampleRadios4">
+                                    <img src="img/fpx.png" alt="online banking" class="formImg" />
+                                    Online Banking
+                                </label>
+                            </div>
+                            <div class="row">
+                                <a href="document/receipt.pdf" target="_blank" class="btn btn-success m-l-20">Pay</a>
+                                <button type="button" class="btn btn-secondary m-l-30">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row p-l-10 p-r-40">
             <div class="col-5 p-l-20 p-r-20">
@@ -429,11 +485,12 @@
                                 <td>RM 2000</td>
                             </tr>
                             <tr>
-                                <th scope="row" colspan="2" class="text-center">Remaining</th>
+                                <th scope="row" colspan="2" class="text-center">Outstanding balance</th>
                                 <td>RM 760</td>
                             </tr>
                         </tbody>
                     </table>
+                    <a href="#" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#modalPay" style="display: block; width: 140px;">Pay now</a>
                 </div>
             </div>
             <div class="col-7 main-block p-t-20 bottom-block p-l-20 p-r-20">

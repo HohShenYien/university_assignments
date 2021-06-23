@@ -81,41 +81,6 @@
   cursor: pointer;
 }
 
-html {
-  width: 101% !important;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-}
-
-.user-pic {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: inline-block;
-}
-
-.mylink:link {
-  text-decoration: none;
-}
-
-.mylink:visited {
-  text-decoration: none;
-}
-
-.mylink:hover {
-  text-decoration: none;
-}
-
-.mylink:active {
-  text-decoration: none;
-}
-
-main {
-  background-color: rgba(0, 255, 127, 0.1);
-}
-
 .main-block {
   background-color: rgba(192, 192, 192, 0.3);
   border-radius: 5px;
@@ -225,7 +190,7 @@ main {
 }
 
 .bottom-block {
-  height: 370px;
+  height: 400px;
 }
 
 .class-link {
@@ -236,4 +201,14 @@ main {
 
 textarea {
   resize: none;
+}
+
+.formImg {
+  width: 100px !important;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
