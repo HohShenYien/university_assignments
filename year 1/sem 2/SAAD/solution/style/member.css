@@ -1,3 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+.rating {
+  border: none;
+  margin-right: 63px;
+}
+
+.myratings {
+  font-size: 85px;
+  color: green;
+}
+
+.rating > [id^="star"] {
+  display: none;
+}
+
+.rating > label:before {
+  margin: 5px;
+  font-size: 2.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+
+.rating > [id^="star"]:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+
+.rating > [id^="star"]:checked + label:hover,
+.rating > [id^="star"]:checked ~ label:hover,
+.rating > label:hover ~ [id^="star"]:checked ~ label,
+.rating > [id^="star"]:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
+
+.reset-option {
+  display: none;
+}
+
+.reset-button {
+  margin: 6px 12px;
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.my-smile {
+  margin-left: -40px;
+}
+
+.mybox {
+  position: relative;
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+
+.mybox .mybox-body {
+  padding: 0;
+}
+
+.mybox-body {
+  flex: 1 1 auto;
+}
+
+.the-rating {
+  cursor: pointer;
+}
+
+html {
+  width: 101% !important;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .user-pic {
   width: 40px;
   height: 40px;
@@ -23,65 +113,127 @@
 }
 
 main {
-  background-color: rgba(0,255,127, 0.1);
+  background-color: rgba(0, 255, 127, 0.1);
 }
 
-.carousel-item img {
+.main-block {
+  background-color: rgba(192, 192, 192, 0.3);
+  border-radius: 5px;
+  height: 590px;
+  margin-bottom: 50px;
+}
+
+.announcement-list {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.announcement-list a:link,
+.announcement-list a:visited,
+.announcement-list a:hover,
+.announcement-list a:active {
+  text-decoration: none;
+}
+
+.announcement {
   width: 100%;
-  height: 450px;
+  height: 150px;
+  padding: 10px;
+  background-color: rgba(211, 211, 211, 1);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.announcement:hover {
+  background-color: rgba(211, 211, 211, 0.4);
+}
+
+.announcement img {
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
-#announcement {
-  width: 80%;
+.announcement::after {
+  content: "\f054";
+  position: absolute;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+  top: 47%;
+  right: 10px;
+  color: dimgray;
 }
 
-.carousel-caption {
-  background-color: rgba(192, 192, 192, 0.7);
-  border-radius: 30px;
+.announcement-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.carousel-caption h5,
-.carousel-caption p {
-  color: #000;
+.announcement-txt {
+  color: #444444;
 }
 
-.carousel-control-prev:hover {
-  background-color: rgba(192, 192, 192, 0.5);
+.announcement-date {
+  color: dimgray;
 }
 
-.carousel-control-next:hover {
-  background-color: rgba(192, 192, 192, 0.5);
+.height-max {
+  height: 100%;
 }
 
-.carousel-control-prev-icon,
-
-.carousel-control-next-icon {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 50%;
-    left: 50%;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
-    background-color: grey;
+.modal-header {
+  background-color: silver;
 }
 
-.carousel-control-next-icon:after {
-    position: absolute;
-    top: -12px;
-    left: 6px;
-    content: '>';
-    font-size: 35px;
-    color: black;
+.modal-dialog {
+  width: 500px;
+  border-radius: 10px;
 }
 
-.carousel-control-prev-icon:after {
-    position: absolute;
-    top: -12px;
-    left: 3px;
-    content: '<';
-    font-size: 35px;
-    color: black;
+.modal-dialog img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  width: 100%;
+}
+
+.my-dropdown {
+  border-width: 2px;
+  border-color: blue;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.my-dropdown:focus {
+  color: blue;
+  border-color: blue;
+  border-width: 2px;
+}
+
+.table {
+  background-color: white;
+}
+
+.scrollable {
+  height: 440px;
+  overflow-y: scroll;
+}
+
+.bottom-block {
+  height: 370px;
+}
+
+.class-link {
+  display: block;
+  width: 200px;
+}
+
+
+textarea {
+  resize: none;
 }

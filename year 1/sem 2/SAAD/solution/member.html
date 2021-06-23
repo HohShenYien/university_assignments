@@ -51,7 +51,7 @@
             <li class="dropdown m-l-20 p-r-10">
                 <a class="dropdown-toggle w-100 login text-white mylink" href="#" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class= "user-pic" src="img/ah-chong.jpg">
+                    <img class="user-pic" src="img/ah-chong.jpg">
                     Ah Chong
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
@@ -65,7 +65,8 @@
                     <a class="dropdown-item" href="instructor_login.html">View Instructors</a>
                     <a class="dropdown-item" href="instructor_login.html">View Classes</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="instructor_login.html">Provide Feedback</a>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalFeedback">Provide
+                        Feedback</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="index.html">Log out</a>
                 </div>
@@ -75,73 +76,391 @@
     </nav>
 
     <main>
-        <h1 class="text-center">
+        <h1 class="text-center m-b-40 p-t-20">
             Welcome back, Ah Chong
         </h1>
-        <div class="row">
-            <div class="col-4">Hello</div>
-            <div class="col-8 announcement-block">
-                <h3 class="text-center">Announcement</h3>
-                <div id="announcement" class="carousel slide multi-item-carousel mx-auto" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#announcement" data-slide-to="0" class="active"></li>
-                        <li data-target="#announcement" data-slide-to="1"></li>
-                        <li data-target="#announcement" data-slide-to="2"></li>
-                        <li data-target="#announcement" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="item__third">
-                                <img src="img/instructor-1.webp" class="d-block mx-auto" alt="Instructor 1">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Bob Chong</h5>
-                                    <p class="lead fs-16">Three-time champion of Malaysian National Weightlifting
-                                        Competition.</p>
-                                </div>
-                            </div>
+        <div class="row p-l-10 p-r-40">
+            <div class="col-5 p-l-20 p-r-20">
+                <div class="main-block">
+                    <h3 class="text-center m-b-20 font-weight-bold p-t-20">Class Schedules</h3>
+                    <div class="row m-l-30 m-b-20">
+                        <select class="form-control my-dropdown col-4">
+                            <option selected>21 Jun 2021</option>
+                            <option>28 Jun 2021</option>
+                            <option>5 July 2021</option>
+                            <option>12 July 2021</option>
+                            <option>19 July 2021</option>
+                        </select>
+                        <select class="form-control my-dropdown col-3 ml-auto m-r-40">
+                            <option>Monday</option>
+                            <option>Tuesday</option>
+                            <option>Wednesday</option>
+                            <option>Thursday</option>
+                            <option selected>Friday</option>
+                            <option>Saturday</option>
+                        </select>
+                    </div>
+                    <div class="scrollable p-l-20 p-r-20">
+                        <table class="table table-hover table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Class</th>
+                                    <th scope="col">Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>12:00 p.m. - 1.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Gymnastic</a></td>
+                                    <td>Gymnasium 1</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 p.m. - 2.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Yoga</a></td>
+                                    <td>Gymnasium 2</td>
+                                </tr>
+                                <tr>
+                                    <td>1:00 p.m. - 3:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Aerobic</a></td>
+                                    <td>Multipurpose Hall 2</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30 p.m. - 3.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Taichi</a></td>
+                                    <td>Gymnasium 3</td>
+                                </tr>
+                                <tr>
+                                    <td>3:00 p.m. - 4:30 p.m.</td>
+                                    <td><a href="class_profile2.html">Aerobic</a></td>
+                                    <td>Multipurpose Hall 4</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30 p.m. - 5.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Weightlift</a></td>
+                                    <td>Main Hall</td>
+                                </tr>
+                                <tr>
+                                    <td>4:00 p.m. - 5:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Gymnastic</a></td>
+                                    <td>Gymnasium 1</td>
+                                </tr>
+                                <tr>
+                                    <td>5:00 p.m. - 7:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Gymnastic</a></td>
+                                    <td>Gymnasium 4</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 p.m. - 6:30 p.m.</td>
+                                    <td><a href="class_profile2.html">Aerobic</a></td>
+                                    <td>Main Hall</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 p.m. - 7:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Yoga</a></td>
+                                    <td>Gymnasium 1</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 p.m. - 7.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Taichi</a></td>
+                                    <td>Gymnasium 2</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00 p.m. - 8:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Taichi</a></td>
+                                    <td>Multipurpose Hall 3</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00 p.m. - 8:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Yoga</a></td>
+                                    <td>Gymnasium 2</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00 p.m. - 8:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Weightlift</a></td>
+                                    <td>Multipurpose Hall 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 main-block p-t-20 p-b-40">
+                <h3 class="text-center m-b-20 font-weight-bold">Announcements</h3>
+                <div class="announcement-list">
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal1">
+                        <img src="img/announcement1.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Shorter Operation Hours</h5>
+                            <p class="announcement-txt">Due to restriction order by government, One Pacific Health Club
+                                will close at 8.00 p.m. daily and opens at 12.00 p.m. during weekdays.</p>
+                            <p class="announcement-date">19 June 2021</p>
                         </div>
-                        <div class="carousel-item">
-                            <div class="item__third">
-                                <img src="img/instructor-2.jpg" class="d-block mx-auto" alt="Instructor 2">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>John Doe</h5>
-                                    <p class="lead fs-16">2017 Malaysian Gymnastic Competition champion.</p>
-                                </div>
-                            </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal2">
+                        <img src="img/announcement2.jpg" alt="paint" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Closing for a day due to renovation</h5>
+                            <p class="announcement-txt">One Pacific Health Club will be closing on 10/06/2021 to
+                                renovate multipurpose rooms.</p>
+                            <p class="announcement-date">8 June 2021 </p>
                         </div>
-                        <div class="carousel-item">
-                            <div class="item__third">
-                                <img src="img/instructor-3.jpg" class="d-block mx-auto" alt="Instructor 3">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Bill Nye</h5>
-                                    <p class="lead fs-16">Professional yoga practitioner with over 30 years of
-                                        experience.</p>
-                                </div>
-                            </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal3">
+                        <img src="img/announcement3.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Equipment upgrade</h5>
+                            <p class="announcement-txt">One Pacific Health Club bought in new set multifuntion gym
+                                station.</p>
+                            <p class="announcement-date">31 May 2021</p>
                         </div>
-                        <div class="carousel-item">
-                            <div class="item__third">
-                                <img src="img/instructor-4.jpg" class="d-block mx-auto" alt="Instructor 3">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Anne Green</h5>
-                                    <p class="lead fs-16">Malaysian representative for International Women Triathlon
-                                        Championship.</p>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal4">
+                        <img src="img/announcement4.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Lorem ipsum</h5>
+                            <p class="announcement-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                laborum, perspiciatis veritatis quia praesentium.</p>
+                            <p class="announcement-date">20 May 2021</p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal4">
+                        <img src="img/announcement4.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Lorem ipsum</h5>
+                            <p class="announcement-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                laborum, perspiciatis veritatis quia praesentium</p>
+                            <p class="announcement-date">20 May 2021</p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal4">
+                        <img src="img/announcement4.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Lorem ipsum</h5>
+                            <p class="announcement-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                laborum, perspiciatis veritatis quia praesentium</p>
+                            <p class="announcement-date">20 May 2021</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--Modals....-->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Shorter Operation Hours</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement1.jpg" alt="covid">
+                            <p class="announcement-date">19 June 2021</p>
+                            <p>For the next two weeks (21/06/2021 - 05/06/2021), the operation hours for the club will
+                                be shorter. This period may be extended depending on government's decision.</p>
+                            <table class="table table-hover table-striped table-bordered mx-auto">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Monday - Friday</th>
+                                        <td>12:00 PM - 8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Saturday</th>
+                                        <td>
+                                            <p>2:00 PM - 8:00 PM</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Closing for a day due to
+                                renovation</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement2.jpg" alt="paint">
+                            <p class="announcement-date">8 June 2021</p>
+                            <p>One Pacific Health Club will be closing on 10/06/2021 to renovate multipurpose rooms. The
+                                rooms will be painted with new colours to give a fresher look.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Equipment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement3.jpg" alt="equipment">
+                            <p class="announcement-date">31 May 2021</p>
+                            <p>One Pacific Health Club bought in new set multifuntion gym station. There will be a total
+                                of 12 new stations. These stations are effective to help users in improving their
+                                strength.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Lorem ipsum</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement4.jpg" alt="lorem ipsum">
+                            <p class="announcement-date">20 May 2021</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat provident laudantium
+                                accusamus iure neque nulla corrupti. Nostrum tenetur dicta debitis deleniti velit
+                                explicabo expedita nesciunt voluptatem doloribus, sit voluptates ullam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalFeedback" tabindex="-1" role="dialog" aria-labelledby="modalFeedback"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Feedback</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container d-flex justify-content-center">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mybox">
+                                            <div class="mybox-body text-center"> 
+                                                <span class="myratings"><i class="fa fa-smile-o fs-70 my-smile"></i></span>
+                                                <h4 class="mt-1 mx-auto">Rate us</h4>
+                                                <fieldset class="rating">
+                                                    <input class="the-rating" type="radio" id="star5" name="rating" value="5"/>
+                                                        <label class="full the-rating" for="star5" title="Awesome - 5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star4half" name="rating" value="4.5"/>
+                                                        <label class="half the-rating" for="star4half"
+                                                        title="Pretty good - 4.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full the-rating" for="star4"
+                                                        title="Pretty good - 4 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star3half" name="rating" value="3.5" />
+                                                        <label class="half the-rating" for="star3half" title="Meh - 3.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full the-rating" for="star3" title="Meh - 3 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star2half" name="rating" value="2.5" />
+                                                        <label class="half the-rating" for="star2half"
+                                                        title="Kinda bad - 2.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full the-rating" for="star2" title="Kinda bad - 2 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star1half" name="rating" value="1.5" />
+                                                        <label class="half the-rating" for="star1half" title="Meh - 1.5 stars"></label>
+                                                    <input class="the-rating" type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full the-rating" for="star1"
+                                                        title="Terrible - 1 star"></label>
+                                                    <input class="the-rating" type="radio" id="starhalf" name="rating" value="0.5" />
+                                                        <label class="half the-rating" for="starhalf"
+                                                        title="Terrible - 0.5 stars"></label>
+                                                    <input type="radio" class="reset-option" name="rating"
+                                                        value="reset" checked="checked"/>
+                                                </fieldset>
+                                                
+                                                <textarea class="form-control" id="my-text" rows="3" placeholder="Feedback"></textarea>
+                                                <button class="btn btn-primary m-t-20">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#announcement" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#announcement" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
         </div>
-        
+        <div class="row p-l-10 p-r-40">
+            <div class="col-5 p-l-20 p-r-20">
+                <div class="main-block p-l-20 p-r-20 bottom-block">
+                    <h3 class="text-center m-b-20 font-weight-bold p-t-20">Finance</h3>
+                    <table class="table table-hover table-striped table-bordered mx-auto">
+                        <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Details</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Annual Member Fees</td>
+                                <td></td>
+                                <td>RM 600</td>
+                            </tr>
+                            <tr>
+                                <td>Personal Class</td>
+                                <td>RM 180 x 12 months</td>
+                                <td>RM 2160</td>
+                            </tr>
+                            <tr>
+                                <td>Amount Paid</td>
+                                <td></td>
+                                <td>RM 2000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="text-center">Remaining</th>
+                                <td>RM 760</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-7 main-block p-t-20 bottom-block p-l-20 p-r-20">
+                <h3 class="text-center m-b-20 font-weight-bold">Personal Class Schedules</h3>
+                <table class="table table-hover table-striped table-bordered mx-auto">
+                    <thead>
+                        <tr>
+                            <th scope="col">Instructor</th>
+                            <th scope="col">Day</th>
+                            <th scope="col">Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Anne Green</th>
+                            <td>Tuesday</td>
+                            <td>3:00 p.m. - 5:00 p.m.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#" class="btn btn-primary mx-auto m-t-20 class-link">
+                    Book personal class
+                </a>
+            </div>
+        </div>
+
+
     </main>
     <!-- Site footer -->
     <footer class="site-footer" id="footer">
@@ -190,5 +509,15 @@
     </footer>
 
 </body>
+
+<script>
+    $(document).ready(function () {
+
+        $("input[type='radio']").click(function () {
+            var sim = $("input[type='radio']:checked").val();
+            if (sim < 3) { $('.myratings').css('color', 'red'); $(".myratings").text(sim); } else { $('.myratings').css('color', 'green'); $(".myratings").text(sim); }
+        });
+    });
+</script>
 
 </html>
