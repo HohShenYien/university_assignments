@@ -36,7 +36,7 @@
     <script>
         function initMap() {
             // The location of Uluru
-            const stadium = { lat: 3.0553454, lng: 101.7004907};
+            const stadium = { lat: 3.0553454, lng: 101.7004907 };
             // The map, centered at Uluru
             const map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 18,
@@ -55,38 +55,36 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
-        <a class="navbar-brand" href="member.html">
+        <a class="navbar-brand" href="instructor_page.html">
             <img src="img/icon.png" width="50" height="auto" alt="">
             <span class="text-white">One Pacific Health Club</span>
         </a>
         <span class="navbar-nav ml-auto nav-item">
-            <a class="nav-link link text-white" href="instructor_about_2.html">
-                Instructors
+            <a class="nav-link link text-white" href="attendance.html">
+                Attendance
             </a>
-            <a class="nav-link link text-white" href="class_about_2.html">
-                Classes
+            <a class="nav-link link text-white font-weight-bold" href="personal_class.html">
+                Personal Classes
             </a>
             <li class="dropdown m-l-20 p-r-10">
                 <a class="dropdown-toggle w-100 login text-white mylink" href="#" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="user-pic" src="img/ah-chong.jpg">
-                    Ah Chong
+                    <img class="user-pic" src="img/bob-chong.png">
+                    Bob
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="member_profile.html">
-                        <i href="#" class="fa fa-user-circle small-icon"></i>Profile
+                    <a class="dropdown-item" href="instructor_profile.html">
+                        <i href="instructor_profile.html" class="fa fa-user-circle small-icon"></i>Profile
                     </a>
-                    <a class="dropdown-item" href="member_edit_profile.html">
+                    <a class="dropdown-item" href="instructor_edit_profile.html">
                         <i href="#" class="fa fa-edit small-icon"></i>Edit Profile
                     </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalFeedback">Provide
-                        Feedback</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="index.html">Log out</a>
                 </div>
             </li>
         </span>
+
     </nav>
     <main>
         <div class="first">
@@ -131,43 +129,44 @@
             <h2 class="m-b-0 text-center p-b-30">Where are we?</h2>
             <div class="row the-map">
                 <div id="map" class="col-6"></div>
-                <p class="col-4 myAuto p-l-80">Jalan Teknologi 5, Taman Teknologi Malaysia, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+                <p class="col-4 myAuto p-l-80">Jalan Teknologi 5, Taman Teknologi Malaysia, 57000 Kuala Lumpur, Wilayah
+                    Persekutuan Kuala Lumpur</p>
                 <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyHhj7-Xk_v0J8A852guUjL-XYXqBoq4w&callback=initMap&libraries=&v=weekly"
-            async></script>
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyHhj7-Xk_v0J8A852guUjL-XYXqBoq4w&callback=initMap&libraries=&v=weekly"
+                    async></script>
             </div>
             <h2 class="m-b-0 text-center p-b-30">Operating hours</h2>
             <table class="table table-hover table-striped table-bordered mx-auto">
                 <thead>
                     <tr>
-                    <th scope="col">Day</th>
-                    <th scope="col">Hours</th>
+                        <th scope="col">Day</th>
+                        <th scope="col">Hours</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">Monday - Thursday</th>
-                    <td>8:00 AM - 10:00 PM</td>
+                        <th scope="row">Monday - Thursday</th>
+                        <td>8:00 AM - 10:00 PM</td>
                     </tr>
                     <tr>
-                    <th scope="row">Friday</th>
-                    <td>
-                        <p>8:00 AM - 12:00 PM</p>
-                        <p>1:00 PM - 7:00 PM</p>
-                    </td>
+                        <th scope="row">Friday</th>
+                        <td>
+                            <p>8:00 AM - 12:00 PM</p>
+                            <p>1:00 PM - 7:00 PM</p>
+                        </td>
                     </tr>
                     <tr>
-                    <th scope="row">Saturday</th>
-                    <td>
-                        8:00 AM - 6:00 PM
-                    </td>
+                        <th scope="row">Saturday</th>
+                        <td>
+                            8:00 AM - 6:00 PM
+                        </td>
                     </tr>
                 </tbody>
             </table>
-            
+
         </div>
 
-    <div class="modal fade" id="modalFeedback" tabindex="-1" role="dialog" aria-labelledby="modalFeedback"
+        <div class="modal fade" id="modalFeedback" tabindex="-1" role="dialog" aria-labelledby="modalFeedback"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -244,7 +243,6 @@
         </div>
 
     </main>
-    <!-- Site footer -->
     <footer class="site-footer" id="footer">
         <div class="container">
             <div class="row">
@@ -257,9 +255,8 @@
                 <div class="col-xs-6 col-md-3">
                     <h6>Quick Links</h6>
                     <ul class="footer-links">
-                        <li><a href="about_2.html">About Us</a></li>
-                        <li><a href="instructor_about_2.html">Instructor List</a></li>
-                        <li><a href="class_about_2.html#class-list">Class List</a></li>
+                        <li><a href="about_3.html">About Us</a></li>
+                        <li><a href="member_list_3.html">Member List</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-3">

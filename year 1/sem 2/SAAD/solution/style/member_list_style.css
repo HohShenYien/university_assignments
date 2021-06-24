@@ -1,0 +1,7 @@
+.one-row td:nth-child(1) {
+    width: 95%;
+}
+
+.one-row td:nth-child(2) {
+    width: 5%;
+}

@@ -48,3 +48,10 @@
 .other-table {
   width: 70%;
 }
+
+a.disabled {
+  /* Make the disabled links grayish*/
+  color: gray !important;
+  /* And disable the pointer events */
+  pointer-events: none;
+}
