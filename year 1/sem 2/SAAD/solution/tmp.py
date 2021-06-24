@@ -1,9 +1,8 @@
 import random
 
-num = 5
+locations = ["Gymnasium", "Multipurpose Hall"]
+
 with open("tmp.txt", "r") as file:
     for name in file.readlines():
-        print(f"""<tr class="one-row">
-                        <td>{name.strip()}</td>
-                        <td><a href="member_profile_3.html"><i class="fa fa-info-circle"></i></a></td>
-                    </tr>""")
+        print(f'<option data-tokens="Main Hall">Main Hall</option>')
+ 

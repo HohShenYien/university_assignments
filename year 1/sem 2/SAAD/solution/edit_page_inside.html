@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/index.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/member_profile.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
+    <link href="style/custom.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <title>One Pacific Health Club</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="admin_page.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="member_list_4.html">
+                Members
+            </a>
+            <a class="nav-link link text-white" href="instructor_about_4.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white" href="class_about_4.html">
+                Classes
+            </a>
+            <li class="dropdown m-l-20 p-r-10">
+                <a class="dropdown-toggle w-100 login text-white mylink nav-link" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Admin
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item font-weight-bold" href="edit_page.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit Pages
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">Log out</a>
+                </div>
+            </li>
+        </span>
+
+    </nav>
+
+    <main>
+        <div id="first" class="p-b-40">
+            <h1 class="display-3 title-texts">
+                Opportunity to Change Your Life
+            </h1>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="New title" style="width: 600px; margin-left: 50px">
+            <p class="lead title-texts fs-30">
+                Start improving your health by signing up with One Pacific Health Club. You can choose from various
+                classes
+                including Aerobics, Yoga, Swimming and more!
+            </p>
+            <textarea class="form-control" id="exampleFormControlInput1" rows="3" placeholder="New description" style="width: 600px; margin-left: 50px"></textarea>
+            <img src="img/icon.png" width="345" height="auto" alt="" class="myImg">
+            </img>
+            <div class="text-center m-b-20 m-t-20" id="icon1">
+                <input type="button" id="loadFileXml" value="Change Club Logo"
+                    onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file" />
+            </div>
+            <div class="buttons">
+                <a class="btn btn-primary myBtn" href="register.html" role="button">Get Started</a>
+                <a class="btn btn-outline-dark myBtn" href="about_4.html" role="button">About Us</a>
+            </div>
+        </div>
+
+        <div id="second" class="row" style="position: relative;">
+            <div class="col-8 text-md-start p-b-40 p-t-20 p-l-40">
+                <h1 class="mb-3">
+                    Our Instructors
+                </h1>
+                <p class="lead fs-30 mb-4 p-l-10">
+                    Professional instructors are hired to aid you with the training in the classes. Personal classes
+                    conducted by
+                    the instructors can be booked to enhance your training outcome!
+                </p>
+                <textarea class="form-control" id="exampleFormControlInput1" rows="3" placeholder="New description" style="width: 600px; margin-left: 20px"></textarea>
+                <a class="btn btn-primary myBtn m-t-10 m-b-40 fs-24" role="button" href="instructor_about_4.html">Learn
+                    more about our instructors</a>
+                <a class="btn btn-primary myBtn fs-24" href="class_about_1.html#row5" role="button">Learn more about the
+                    personal classes</a>
+            </div>
+            <div class="col-4 p-r-0 p-l-0"><img src="img/workout_people.jpg" /></div>
+            <div class="text-center m-b-20 m-t-20" id="icon2">
+                <input type="button" id="loadFileXml" value="Change Image"
+                    onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file" />
+            </div>
+        </div>
+
+        <div id="third" class="row" style="position: relative">
+            <div class="col-8 text-md-start p-b-40 p-t-20 p-l-40">
+                <h1 class="mb-3">
+                    Our Classes
+                </h1>
+                <p class="lead fs-30 mb-4 p-l-10">
+                    Yoga, aerobic, and more classes conducted by professional instructors are available for you! The
+                    classes can be joined freely once you have registered.
+                </p>
+                <textarea class="form-control" id="exampleFormControlInput1" rows="3" placeholder="New description" style="width: 600px; margin-left: 20px"></textarea>
+                <a class="btn btn-primary myBtn m-t-10 m-b-40 fs-24" href="instructor_about_1.html" role="button">Learn
+                    more about the classes</a>
+            </div>
+            <div class="col-2 p-r-0 p-l-0"><img src="img/yoga.jpg" /></div>
+            <div class="text-center m-b-20 m-t-20" id="icon3">
+                <input type="button" id="loadFileXml" value="Change Image"
+                    onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file" />
+            </div>
+            <div class="col-2 p-r-0 p-l-0"><img src="img/aerobic.jpeg" /></div>
+            <div class="text-center m-b-20 m-t-20" id="icon4">
+                <input type="button" id="loadFileXml" value="Change Image"
+                    onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file" />
+            </div>
+        </div>
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_4.html">About Us</a></li>
+                        <li><a href="member_list_4.html">Member List</a></li>
+                        <li><a href="class_about_4.html">Class List</a></li>
+                        <li><a href="instructor_about_4.html">Instructor List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

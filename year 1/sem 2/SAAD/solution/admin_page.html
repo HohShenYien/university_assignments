@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/member.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <title>One Pacific Health Club</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="admin_page.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="member_list_4.html">
+                Members
+            </a>
+            <a class="nav-link link text-white" href="instructor_about_4.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white" href="class_about_4.html">
+                Classes
+            </a>
+            <li class="dropdown m-l-20 p-r-10">
+                <a class="dropdown-toggle w-100 login text-white mylink nav-link" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Admin
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="edit_page.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit Pages
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">Log out</a>
+                </div>
+            </li>
+        </span>
+
+    </nav>
+
+    <main>
+        <h1 class="text-center m-b-40 p-t-20">
+            Admin Page
+        </h1>
+        <div class="row p-l-10 p-r-40">
+            <div class="col-5 p-l-20 p-r-20">
+                <div class="main-block">
+                    <h3 class="text-center m-b-20 font-weight-bold p-t-20">Class schedules</h3>
+                    <div class="row m-l-30 m-b-20">
+                        <select class="form-control my-dropdown col-4">
+                            <option selected>21 Jun 2021</option>
+                            <option>28 Jun 2021</option>
+                            <option>5 July 2021</option>
+                            <option>12 July 2021</option>
+                            <option>19 July 2021</option>
+                        </select>
+                        <select class="form-control my-dropdown col-3 ml-auto m-r-40">
+                            <option>Monday</option>
+                            <option>Tuesday</option>
+                            <option>Wednesday</option>
+                            <option>Thursday</option>
+                            <option selected>Friday</option>
+                            <option>Saturday</option>
+                        </select>
+                    </div>
+                    <div class="scrollable p-l-20 p-r-20">
+                        <table class="table table-hover table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Class</th>
+                                    <th scope="col">Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>12:00 p.m. - 1.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Gymnastic</a></td>
+                                    <td>Gymnasium 1</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 p.m. - 2.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Yoga</a></td>
+                                    <td>Gymnasium 2</td>
+                                </tr>
+                                <tr>
+                                    <td>1:00 p.m. - 3:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Aerobic</a></td>
+                                    <td>Multipurpose Hall 2</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30 p.m. - 3.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Taichi</a></td>
+                                    <td>Gymnasium 3</td>
+                                </tr>
+                                <tr>
+                                    <td>3:00 p.m. - 4:30 p.m.</td>
+                                    <td><a href="class_profile2.html">Aerobic</a></td>
+                                    <td>Multipurpose Hall 4</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30 p.m. - 5.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Weightlift</a></td>
+                                    <td>Main Hall</td>
+                                </tr>
+                                <tr>
+                                    <td>4:00 p.m. - 5:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Gymnastic</a></td>
+                                    <td>Gymnasium 1</td>
+                                </tr>
+                                <tr>
+                                    <td>5:00 p.m. - 7:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Gymnastic</a></td>
+                                    <td>Gymnasium 4</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 p.m. - 6:30 p.m.</td>
+                                    <td><a href="class_profile2.html">Aerobic</a></td>
+                                    <td>Main Hall</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 p.m. - 7:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Yoga</a></td>
+                                    <td>Gymnasium 1</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 p.m. - 7.00 p.m.</td>
+                                    <td><a href="class_profile2.html">Taichi</a></td>
+                                    <td>Gymnasium 2</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00 p.m. - 8:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Taichi</a></td>
+                                    <td>Multipurpose Hall 3</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00 p.m. - 8:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Yoga</a></td>
+                                    <td>Gymnasium 2</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00 p.m. - 8:00 p.m.</td>
+                                    <td><a href="class_profile2.html">Weightlift</a></td>
+                                    <td>Multipurpose Hall 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 main-block p-t-20 p-b-40">
+                <div class="row w-100">
+                    <h3 class="mx-auto m-b-20 font-weight-bold">Announcements</h3>
+                    <a href="#" data-toggle="modal" data-target="#modalAddAnnouncement"><i class="fa fa-plus fs-30"></i></a>
+                </div>
+                <div class="announcement-list">
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal1">
+                        <img src="img/announcement1.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Shorter Operation Hours</h5>
+                            <p class="announcement-txt">Due to restriction order by government, One Pacific Health Club
+                                will close at 8.00 p.m. daily and opens at 12.00 p.m. during weekdays.</p>
+                            <p class="announcement-date">19 June 2021</p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal2">
+                        <img src="img/announcement2.jpg" alt="paint" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Closing for a day due to renovation</h5>
+                            <p class="announcement-txt">One Pacific Health Club will be closing on 10/06/2021 to
+                                renovate multipurpose rooms.</p>
+                            <p class="announcement-date">8 June 2021 </p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal3">
+                        <img src="img/announcement3.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Equipment upgrade</h5>
+                            <p class="announcement-txt">One Pacific Health Club bought in new set multifuntion gym
+                                station.</p>
+                            <p class="announcement-date">31 May 2021</p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal4">
+                        <img src="img/announcement4.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Lorem ipsum</h5>
+                            <p class="announcement-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                laborum, perspiciatis veritatis quia praesentium.</p>
+                            <p class="announcement-date">20 May 2021</p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal4">
+                        <img src="img/announcement4.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Lorem ipsum</h5>
+                            <p class="announcement-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                laborum, perspiciatis veritatis quia praesentium</p>
+                            <p class="announcement-date">20 May 2021</p>
+                        </div>
+                    </a>
+                    <a class="row announcement" href="#" data-toggle="modal" data-target="#modal4">
+                        <img src="img/announcement4.jpg" alt="COVID" class="col-3">
+                        <div class="col-9 height-max">
+                            <h5 class="announcement-title">Lorem ipsum</h5>
+                            <p class="announcement-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                laborum, perspiciatis veritatis quia praesentium</p>
+                            <p class="announcement-date">20 May 2021</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--Modals....-->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Shorter Operation Hours</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement1.jpg" alt="covid">
+                            <p class="announcement-date">19 June 2021</p>
+                            <p>For the next two weeks (21/06/2021 - 05/06/2021), the operation hours for the club will
+                                be shorter. This period may be extended depending on government's decision.</p>
+                            <table class="table table-hover table-striped table-bordered mx-auto">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Monday - Friday</th>
+                                        <td>12:00 PM - 8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Saturday</th>
+                                        <td>
+                                            <p>2:00 PM - 8:00 PM</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Closing for a day due to
+                                renovation</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement2.jpg" alt="paint">
+                            <p class="announcement-date">8 June 2021</p>
+                            <p>One Pacific Health Club will be closing on 10/06/2021 to renovate multipurpose rooms. The
+                                rooms will be painted with new colours to give a fresher look.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Equipment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement3.jpg" alt="equipment">
+                            <p class="announcement-date">31 May 2021</p>
+                            <p>One Pacific Health Club bought in new set multifuntion gym station. There will be a total
+                                of 12 new stations. These stations are effective to help users in improving their
+                                strength.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id="exampleModalLabel">Lorem ipsum</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/announcement4.jpg" alt="lorem ipsum">
+                            <p class="announcement-date">20 May 2021</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat provident laudantium
+                                accusamus iure neque nulla corrupti. Nostrum tenetur dicta debitis deleniti velit
+                                explicabo expedita nesciunt voluptatem doloribus, sit voluptates ullam.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalAddAnnouncement" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center font-weight-bold" id="exampleModalLabel">Add Announcement</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <input type="text" class="form-control m-b-10" id="exampleFormControlInput1" placeholder="Title">
+                            <img src="img/empty.jpg" alt="paint" style="width:70% !important">
+                            <div class="text-center m-b-20 ">
+                                <input type="button" id="loadFileXml" value="Upload announcement image"
+                                    onclick="document.getElementById('file').click();" />
+                                <input type="file" style="display:none;" id="file" name="file" />
+                            </div>
+                            <textarea class="form-control m-b-20" id="exampleFormControlTextarea1" rows="3" placeholder="Announcement"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Announcement Summary"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Add</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_4.html">About Us</a></li>
+                        <li><a href="member_list_4.html">Member List</a></li>
+                        <li><a href="class_about_4.html">Class List</a></li>
+                        <li><a href="instructor_about_4.html">Instructor List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

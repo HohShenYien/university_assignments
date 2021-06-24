@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- contact icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- styles -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="style/member_profile.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <script>
+        $(function () {
+            $('.selectpicker').selectpicker()
+        });
+    </script>
+    <title>Edit Class</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
+        <a class="navbar-brand" href="admin_page.html">
+            <img src="img/icon.png" width="50" height="auto" alt="">
+            <span class="text-white">One Pacific Health Club</span>
+        </a>
+        <span class="navbar-nav ml-auto nav-item">
+            <a class="nav-link link text-white" href="member_list_4.html">
+                Members
+            </a>
+            <a class="nav-link link text-white" href="instructor_about_4.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white" href="class_about_4.html">
+                Classes
+            </a>
+            <li class="dropdown m-l-20 p-r-10">
+                <a class="dropdown-toggle w-100 login text-white mylink nav-link" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Admin
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="edit_page.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit Pages
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="index.html">Log out</a>
+                </div>
+            </li>
+        </span>
+
+    </nav>
+
+    <main class="p-t-20 p-b-20 text-center">
+        <h1 class="m-b-20">Edit Class</h1>
+        <div class="text-center my-box p-t-20 p-b-20">
+            <img src="img/weightlift.png" id="pfp" class="text-center m-t-20 m-b-30 mx-auto" />
+            <div class="text-center m-b-20">
+                <input type="button" id="loadFileXml" value="Change Class Icon"
+                    onclick="document.getElementById('file').click();" />
+                <input type="file" style="display:none;" id="file" name="file" />
+            </div>
+            <table class="table personal-info mx-auto">
+                <tbody>
+                    <tr class="finance-row">
+                        <th scope="row">Class</th>
+                        <td colspan="4">
+                            <div class="row p-l-20" id="exampleFormControlSelect1">
+                                <select class="form-control col-9">
+                                    <option selected="selected">Weightlift</option>
+                                    <option>Gymnastic</option>
+                                    <option>Aerobic</option>
+                                    <option>Yoga</option>
+                                    <option>Taichi</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Instructor</th>
+                        <td colspan="4">
+                            <select class="selectpicker" data-live-search="true" data-size="8">
+                                <option data-tokens="">Bob</option>
+                                <option data-tokens="Niko Delgado">Niko Delgado</option>
+                                <option data-tokens="Azeem Holmes">Azeem Holmes</option>
+                                <option data-tokens="Ruth Kearns">Ruth Kearns</option>
+                                <option data-tokens="Earl Piper">Earl Piper</option>
+                                <option data-tokens="Mohamad Muir">Mohamad Muir</option>
+                                <option data-tokens="Huseyin Needham">Huseyin Needham</option>
+                                <option data-tokens="Justine Cassidy">Justine Cassidy</option>
+                                <option data-tokens="Anniyah Wooten">Anniyah Wooten</option>
+                                <option data-tokens="Roberto Walter">Roberto Walter</option>
+                                <option data-tokens="Rohan Leach">Rohan Leach</option>
+                                <option data-tokens="Mindy Enriquez">Mindy Enriquez</option>
+                                <option data-tokens="Amman Jarvis">Amman Jarvis</option>
+                                <option data-tokens="Kiaan Maguire">Kiaan Maguire</option>
+                                <option data-tokens="Brent Doherty">Brent Doherty</option>
+                                <option data-tokens="Adyan Kearney">Adyan Kearney</option>
+                                <option data-tokens="Rhona Smith">Rhona Smith</option>
+                                <option data-tokens="Kristi Kumar">Kristi Kumar</option>
+                                <option data-tokens="Mack Bull">Mack Bull</option>
+                                <option data-tokens="Manon Hulme">Manon Hulme</option>
+                                <option data-tokens="Augustus O'Doherty">Augustus O'Doherty</option>
+                                <option data-tokens="Menaal Blanchard">Menaal Blanchard</option>
+                                <option data-tokens="Carmen Silva">Carmen Silva</option>
+                                <option data-tokens="Ayub Merrill">Ayub Merrill</option>
+                                <option data-tokens="Elyas Senior">Elyas Senior</option>
+                                <option data-tokens="Simran Herring">Simran Herring</option>
+                                <option data-tokens="Lennie Small">Lennie Small</option>
+                                <option data-tokens="Aleksander Paterson">Aleksander Paterson</option>
+                                <option data-tokens="Barry Beasley">Barry Beasley</option>
+                                <option data-tokens="Wallace Maynard">Wallace Maynard</option>
+                                <option data-tokens="Aneurin Sampson">Aneurin Sampson</option>
+                                <option data-tokens="Keavy Singh">Keavy Singh</option>
+                                <option data-tokens="Celia Wright">Celia Wright</option>
+                                <option data-tokens="Jareth Ingram">Jareth Ingram</option>
+                                <option data-tokens="Dylan Stark">Dylan Stark</option>
+                                <option data-tokens="Alvin Valencia">Alvin Valencia</option>
+                                <option data-tokens="Johanna Moss">Johanna Moss</option>
+                                <option data-tokens="Mylee Delarosa">Mylee Delarosa</option>
+                                <option data-tokens="Cindy Joyce">Cindy Joyce</option>
+                                <option data-tokens="Bevan Wiggins">Bevan Wiggins</option>
+                                <option data-tokens="Shyam Goodwin">Shyam Goodwin</option>
+                                <option data-tokens="Anisa Galindo">Anisa Galindo</option>
+                                <option data-tokens="Maisie Draper">Maisie Draper</option>
+                                <option data-tokens="Tariq Hayden">Tariq Hayden</option>
+                                <option data-tokens="Merlin Travers">Merlin Travers</option>
+                                <option data-tokens="Muneeb Suarez">Muneeb Suarez</option>
+                                <option data-tokens="Kirk Keith">Kirk Keith</option>
+                                <option data-tokens="Kendal Savage">Kendal Savage</option>
+                                <option data-tokens="Balraj Beck">Balraj Beck</option>
+                                <option data-tokens="Samera Wilkerson">Samera Wilkerson</option>
+                                <option data-tokens="Jace Keller">Jace Keller</option>
+                                <option data-tokens="Sana Black">Sana Black</option>
+                                <option data-tokens="Elize Callaghan">Elize Callaghan</option>
+                                <option data-tokens="Arron Rollins">Arron Rollins</option>
+                                <option data-tokens="Victoria Ryan">Victoria Ryan</option>
+                                <option data-tokens="Abubakr Hood">Abubakr Hood</option>
+                                <option data-tokens="Torin Bishop">Torin Bishop</option>
+                                <option data-tokens="Sohaib Jefferson">Sohaib Jefferson</option>
+                                <option data-tokens="Minahil Nieves">Minahil Nieves</option>
+                                <option data-tokens="Katie-Louise Ball">Katie-Louise Ball</option>
+                                <option data-tokens="Iain Villarreal">Iain Villarreal</option>
+                                <option data-tokens="Sydney Witt">Sydney Witt</option>
+                                <option data-tokens="Awais Luna">Awais Luna</option>
+                                <option data-tokens="Jules Huffman">Jules Huffman</option>
+                                <option data-tokens="Abraham Justice">Abraham Justice</option>
+                                <option data-tokens="Raymond Huber">Raymond Huber</option>
+                                <option data-tokens="Bo Cash">Bo Cash</option>
+                                <option data-tokens="Khushi Fox">Khushi Fox</option>
+                                <option data-tokens="Alissa Stafford">Alissa Stafford</option>
+                                <option data-tokens="Denise Sanford">Denise Sanford</option>
+                                <option data-tokens="Moesha Reeves">Moesha Reeves</option>
+                                <option data-tokens="Caroline Mcconnell">Caroline Mcconnell</option>
+                                <option data-tokens="Martina Quintero">Martina Quintero</option>
+                                <option data-tokens="Avneet Rice">Avneet Rice</option>
+                                <option data-tokens="Osama Sierra">Osama Sierra</option>
+                                <option data-tokens="Trey Bradshaw">Trey Bradshaw</option>
+                                <option data-tokens="Aviana Mcgrath">Aviana Mcgrath</option>
+                                <option data-tokens="Chardonnay Marshall">Chardonnay Marshall</option>
+                                <option data-tokens="Sophia Navarro">Sophia Navarro</option>
+                                <option data-tokens="Ira Gamble">Ira Gamble</option>
+                                <option data-tokens="Davina Schofield">Davina Schofield</option>
+                                <option data-tokens="Kasim Wolf">Kasim Wolf</option>
+                                <option data-tokens="Livia Dougherty">Livia Dougherty</option>
+                                <option data-tokens="Theo Bell">Theo Bell</option>
+                                <option data-tokens="Asher Rivers">Asher Rivers</option>
+                                <option data-tokens="Garry Timms">Garry Timms</option>
+                                <option data-tokens="Ayyub Cummings">Ayyub Cummings</option>
+                                <option data-tokens="Arabella Howells">Arabella Howells</option>
+                                <option data-tokens="Gregor East">Gregor East</option>
+                                <option data-tokens="Elli Barker">Elli Barker</option>
+                                <option data-tokens="Mattie Macias">Mattie Macias</option>
+                                <option data-tokens="Arthur Calhoun">Arthur Calhoun</option>
+                                <option data-tokens="Jill Haas">Jill Haas</option>
+                                <option data-tokens="Sannah Curry">Sannah Curry</option>
+                                <option data-tokens="Anushka Emerson">Anushka Emerson</option>
+                                <option data-tokens="Haydon White">Haydon White</option>
+                                <option data-tokens="Hebe Lord">Hebe Lord</option>
+                                <option data-tokens="Hazel Bowers">Hazel Bowers</option>
+                                <option data-tokens="Jason Gill">Jason Gill</option>
+                                <option data-tokens="Abbas Irvine">Abbas Irvine</option>
+                                <option data-tokens="Taya Burgess">Taya Burgess</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Day</th>
+                        <td>
+                            <select id="inputDay" class="form-control">
+                                <option>Monday</option>
+                                <option>Tuesday</option>
+                                <option>Wednesday</option>
+                                <option>Thursday</option>
+                                <option>Friday</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Start time</th>
+                        <td>
+                            <div class="md-form">
+                                <input placeholder="Select time" id="timepicker" class="form-control timepicker" vale="12:00">
+                              </div>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">End time</th>
+                        <td>
+                            <div class="md-form">
+                                <input placeholder="Select time" id="timepicker2" class="form-control timepicker">
+                              </div>
+                        </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Location</th>
+                        <td colspan="4">
+                            <select id="inputLocation" class="form-control">                                <option>Main Hall</option>
+                                <option>Gymnasium 1</option>
+                                <option>Gymnasium 2</option>
+                                <option>Gymnasium 3</option>
+                                <option>Gymnasium 4</option>
+                                <option>Gymnasium 5</option>
+                                <option>Multifunction Room 1</option>
+                                <option>Multifunction Room 2</option>
+                                <option>Multifunction Room 3</option>
+                                <option>Multifunction Room 4</option>
+                                <option>Multifunction Room 5</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row w-100 text-center lastBtn p-l-200">
+                <button class="btn btn-secondary m-r-200">Cancel</button>
+                <button class="btn btn-success">Confirm</button>
+            </div>
+        </div>
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">One Pacific Health Club is a health club located in Bukit Jalil. The aim of
+                        this club is to promote a healty lifestyle.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about_4.html">About Us</a></li>
+                        <li><a href="member_list_4.html">Member List</a></li>
+                        <li><a href="class_about_4.html">Class List</a></li>
+                        <li><a href="instructor_about_4.html">Instructor List</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Contact Us</h6>
+                    <ul class="footer-links">
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-facebook"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-twitter"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-linkedin"></i>One Pacific Health
+                                Club</a></li>
+                        <li><a href="#footer" class="bottom"><i href="#" class="fa fa-instagram"></i>One Pacific Health
+                                Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">One Pacific Health Club</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    $('#timepicker').timepicker({
+        uiLibrary: 'bootstrap4',
+        value: '12:00'
+    });
+    $('#timepicker2').timepicker({
+        uiLibrary: 'bootstrap4',
+        value: '13:30'
+    });
+</script>
+</html>

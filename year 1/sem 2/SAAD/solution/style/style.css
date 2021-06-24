@@ -236,3 +236,10 @@ nav .navbar-brand {
   opacity: 0.7;
 }
 
+.red {
+  color: red;
+}
+
+.red:hover {
+  color: lightcoral;
+}
