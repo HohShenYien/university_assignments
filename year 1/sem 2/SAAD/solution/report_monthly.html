@@ -21,53 +21,83 @@
     <!-- styles -->
     <link href="style/style.css" rel="stylesheet">
     <link href="css/util.css" rel="stylesheet">
-    <link href="style/register.css" rel="stylesheet">
+    <link href="style/member_profile.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
+    <link href="style/report_1.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
-
-    <title>Member Registration</title>
+    <title>Monthly Report</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="admin_page.html">
             <img src="img/icon.png" width="50" height="auto" alt="">
             <span class="text-white">One Pacific Health Club</span>
         </a>
         <span class="navbar-nav ml-auto nav-item">
-            <a class="nav-link link text-white" href="instructor_about_1.html">
+            <a class="nav-link link text-white" href="member_list_4.html">
+                Members
+            </a>
+            <a class="nav-link link text-white" href="instructor_about_4.html">
                 Instructors
             </a>
-            <a class="nav-link link text-white" href="class_about_1.html">
+            <a class="nav-link link text-white" href="class_about_4.html">
                 Classes
             </a>
-            <li class="dropdown">
-                <a class="nav-link dropdown-toggle w-100 login text-white" href="#" id="navbarDropdownMenuLink"
+            <a class="nav-link link text-white font-weight-bold" href="report.html">
+                Report
+            </a>
+            <li class="dropdown m-l-20 p-r-10">
+                <a class="dropdown-toggle w-100 login text-white mylink nav-link" href="#" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Login
+                    Admin
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="member_login.html">Member</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="edit_page.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit
+                    </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="instructor_login.html">Instructor</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="admin_login.html">Admin</a>
+                    <a class="dropdown-item" href="index.html">Log out</a>
                 </div>
             </li>
-            <a>
-                <button type="button" class="btn btn-outline-info font-weight-bold">Register</button>
-            </a>
         </span>
 
     </nav>
-    <main>
-        Please check your email inbox for con
+    <main class="p-t-30 p-b-30">
+        <div class="text-center my-box p-t-20 p-b-20">
+            <h2 class="m-b-20">Monthly Report</h2>
+            <table class="table personal-info mx-auto">
+                <tbody>
+                    <tr class="finance-row"> 
+                        <th scope="row">Members registered</th>
+                        <td colspan="4">70 </td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Instructors registered</th>
+                        <td colspan="4">2</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Classes added</th>
+                        <td colspan="4">5</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Average Class Attendance</th>
+                        <td colspan="4">100/800</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Average Rating</th>
+                        <td colspan="4">4.5 / 5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
-
+    <!-- Site footer -->
     <footer class="site-footer" id="footer">
         <div class="container">
             <div class="row">
@@ -80,9 +110,10 @@
                 <div class="col-xs-6 col-md-3">
                     <h6>Quick Links</h6>
                     <ul class="footer-links">
-                        <li><a href="about_1.html">About Us</a></li>
-                        <li><a href="instructor_about_1.html#instructor-list">Instructor List</a></li>
-                        <li><a href="class_about_1.html#class-list">Class List</a></li>
+                        <li><a href="about_4.html">About Us</a></li>
+                        <li><a href="member_list_4.html">Member List</a></li>
+                        <li><a href="class_about_4.html">Class List</a></li>
+                        <li><a href="instructor_about_4.html">Instructor List</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-3">

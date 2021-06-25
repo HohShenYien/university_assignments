@@ -21,47 +21,44 @@
     <!-- styles -->
     <link href="style/style.css" rel="stylesheet">
     <link href="css/util.css" rel="stylesheet">
-    <link href="style/member.css" rel="stylesheet">
-    <link href="style/member_style.css" rel="stylesheet">
     <link href="style/member_profile.css" rel="stylesheet">
+    <link href="style/member_style.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/jquery.dataTables.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.20/js/dataTables.bootstrap4.min.js">
-    </script>
-    <title>One Pacific Health Club</title>
+    <title>Edit Page</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light border mx-auto" style="background-color: #57AC5F;">
-        <a class="navbar-brand" href="instructor_page.html">
+        <a class="navbar-brand" href="admin_page.html">
             <img src="img/icon.png" width="50" height="auto" alt="">
             <span class="text-white">One Pacific Health Club</span>
         </a>
         <span class="navbar-nav ml-auto nav-item">
-            <a class="nav-link link text-white" href="attendance.html">
-                Attendance
+            <a class="nav-link link text-white" href="member_list_4.html">
+                Members
             </a>
-            <a class="nav-link link text-white" href="personal_class.html">
-                Personal Classes
+            <a class="nav-link link text-white" href="instructor_about_4.html">
+                Instructors
+            </a>
+            <a class="nav-link link text-white" href="class_about_4.html">
+                Classes
+            </a>
+            <a class="nav-link link text-white font-weight-bold" href="report.html">
+                Report
             </a>
             <li class="dropdown m-l-20 p-r-10">
-                <a class="dropdown-toggle w-100 login text-white mylink" href="#" id="navbarDropdownMenuLink"
+                <a class="dropdown-toggle w-100 login text-white mylink nav-link" href="#" id="navbarDropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="user-pic" src="img/bob-chong.png">
-                    Bob
+                    Admin
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item font-weight-bold" href="instructor_profile.html">
-                        <i href="instructor_profile.html" class="fa fa-user-circle small-icon"></i>Profile
-                    </a>
-                    <a class="dropdown-item" href="instructor_edit_profile.html">
-                        <i href="#" class="fa fa-edit small-icon"></i>Edit Profile
+                    <a class="dropdown-item" href="edit_page.html">
+                        <i href="#" class="fa fa-edit small-icon"></i>Edit
                     </a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="index.html">Log out</a>
@@ -70,45 +67,30 @@
         </span>
 
     </nav>
-
-    <main class="text-center p-b-30">
-        <img src="img/bob-chong.png" id="pfp" class="text-center m-t-20 m-b-30 mx-auto"/>
-        <h1 class="m-b-20">Bob</h1>
+    <main class="p-t-30 p-b-30">
         <div class="text-center my-box p-t-20 p-b-20">
-            <h2 class="m-b-20">Personal Info</h2>
+            <h2 class="m-b-20">Class Report</h2>
             <table class="table personal-info mx-auto">
                 <tbody>
                     <tr class="finance-row"> 
-                        <th scope="row">Name</th>
-                        <td colspan="4">Bob Chong</td>
-                    </tr>
-                    <tr class="finance-row">
-                        <th scope="row">Email</th>
-                        <td colspan="4">bobchong85@gmail.com</td>
-                    </tr>
-                    <tr class="finance-row">
-                        <th scope="row">Phone Number</th>
-                        <td colspan="4">+6012-9517401</td>
-                    </tr>
-                    <tr class="finance-row">
-                        <th scope="row">Gender</th>
-                        <td colspan="4">Male</td>
-                    </tr>
-                    <tr class="finance-row">
-                        <th scope="row">Birthday</th>
-                        <td colspan="4">20 August, 1990</td>
-                    </tr>
-                    <tr class="finance-row">
-                        <th scope="row">Address</th>
-                        <td colspan="4">No. 7, Jalan Manila, Taman Kelana, Cheras, 57000, Kuala Lumpur</td>
-                    </tr>
-                    <tr class="finance-row">
                         <th scope="row">Class</th>
-                        <td colspan="4">Weightlift</td>
+                        <td colspan="4">Weightlift </td>
                     </tr>
                     <tr class="finance-row">
-                        <th scope="row">Personal Class fees</th>
-                        <td colspan="4">RM 80 per hour</td>
+                        <th scope="row">Day</th>
+                        <td colspan="4">Monday</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Time</th>
+                        <td colspan="4">12:00 p.m. - 1:30 p.m.</td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Instructor</th>
+                        <td colspan="4"><a href="instructor_profile_4.html">Bob</a></td>
+                    </tr>
+                    <tr class="finance-row">
+                        <th scope="row">Average Class Attendance</th>
+                        <td colspan="4">150/800</td>
                     </tr>
                 </tbody>
             </table>
@@ -127,8 +109,10 @@
                 <div class="col-xs-6 col-md-3">
                     <h6>Quick Links</h6>
                     <ul class="footer-links">
-                        <li><a href="about_3.html">About Us</a></li>
-                        <li><a href="member_list_3.html">Member List</a></li>
+                        <li><a href="about_4.html">About Us</a></li>
+                        <li><a href="member_list_4.html">Member List</a></li>
+                        <li><a href="class_about_4.html">Class List</a></li>
+                        <li><a href="instructor_about_4.html">Instructor List</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-md-3">
