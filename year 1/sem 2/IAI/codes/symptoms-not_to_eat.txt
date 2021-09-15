@@ -1,0 +1,110 @@
+Acne|refine grains and sugars/cane sugar/maple syrup/agave/honey/white flour product/dairy product/fast food/evening primrose oil/borage oil/safflower oil/sunflower oil/blackcurrant seed/sesame seeds/wheatgerm oil/chocolate/whey protein powder 
+Aging/premature|sugary pastries/potato chips/french fries/processed meats/alcohol/fatty meats 
+AIDS and HIV infection|raw vegetables/acidic foods 
+Alcoholism|high salt/caffeine/processed food with refined carbs and added sugar 
+Allergies|Avoid food or product that may contain it as an ingredient 
+Alopecia/Hair loss|pasta sauce/instant noodles/salty food 
+Anemia|coffee/tea/milk/eggs 
+Anxiety/Hypochondria/depression|fruit juice/toast/regular soda/diet soda/'light' dressing/ketchup/coffee/energy drinks/alcohol/frosting/soy sauce/processed foods/doughnuts 
+Arthritis|candy/soda/ice cream/red meats/processed meats/wheat/barley/rye/fast-food/breakfast cereal/alcohol/shrimp/canned soup/pizza 
+Asthma/Bronchial|wine/dried food/beans/cabbage/onions/carbonated drinks/garlic/fried foods/chemical preservativres/flavorings/coloring 
+Atherosclerosis/AginA|high salt food 
+Biliary cirrhosis|cream/butter/beef/pork 
+Bleeding gums|Sugary foods/processed food 
+Bone loss|high-salt foods/alcohol/beans/legumes/wheat/caffeine/excess vitamin A  
+Bronchitis|caffeine/alcohol/milk product 
+Bursitis|processed food/sugary foods/salty foods 
+Cardiovascular disease|butter/gravy/fried foods/processed meats/pastries/table salt/packaged meals/mayonnaise/ketchup 
+Cholesterolemia|red meats/processed meats/sugary foods/salty foods 
+Colds/Flu|alcohol/crunchy crackers/processed foods/caffeine 
+Colic/Infantile|caffeine/cabbage/broccoli/pineapple/berries 
+Colitis|alcohol/caffeine/carbonated drinks/dairy products/dried beans/peas/legumes/dried fruits/popcorn/meat/nuts and crunchy nut butters/seeds/spicy foods/raw fruits and vegetable 
+Constipation|alcohol/wheat/barley/rye/kamut/triticale/bread/white rice/dairy products/red meat/fried foods/fast foods 
+Crohn's Disease|alcohol/caffeine/butter/mayonnaise/margarine/carbonated drinks/corn/tea/chocolate/dairy product 
+Dehydration|soda/fruit juice/coconut water/coffee/detox tea/eney drinks/alcohol/asparagus/artichokes/beets/high-protein meals/cured meats/soy sauce/fried foods/salty snacks/frozen dinners/ 
+Delayed wound healing|spices/nitrate-rich foods/margarine 
+Dental health|sugary foods/processed foods/acidic/high carbohyrate foods 
+Depressed immune system|sugary foods/salty foods/fried foods/processed meats/fast food/chemical preservativres/flavorings/coloring 
+Diabetes|packaged foods/fast foods/sugary foods/processed meat/rice/bread 
+Diarrheal disorders|dairy products/fried foods/spicy foods/processed foods/raw vegetables/pork/veal/rhubarb 
+Dizziness|fluids/caffeine/alcohol/processed meat 
+Eczema/Scaling of lips|dairy product/soy/nuts/eggs/cakes/sugary foods/fast foods 
+Emphysema|salty food/fried foods/dairy products 
+Eyelid Dermatitis/Xeroderma of the eyelids/Eczema of the eyelids/atopic dermatitis|airy product/soy/nuts/eggs/cakes/sugary foods/fast foods 
+Facial oiliness|salty food/red meats/sugary foods/white bread/white rice/dairy product/alcohol/peanut butter/fried food/soft drinks 
+Fatigue/Severe|processed foods 
+Febrile illnesses/Fever|alcohol/greasy foods/sugary foods 
+Food poisoning|fried foods/pears/strawberries/avocado/apples/raspberries/bananas 
+Gallbladder disorders|fried foods/processed foods/dairy products/ red meats 
+Gallstones|salty foods/sugary foods/fried foods 
+Goiter/Hypothyroidism|Soy foods/cabbage/broccoli/spinash/sweet potatoes/cassava/peaches/strawberries/nuts/seeds/millet/processed foods 
+Gout|liver/kidney/sweetbreads/red meat/alcohol/sugary foods 
+Halitosis|garlic/onions/coffee/alcohol/protein/sugar/cheese/canned fish/horseradish/tomatoes 
+Headaches|beef livers/chicken livers/breaded meats/marinated meats/flavoured popcorn/nut butters 
+Heat stroke|fried foods 
+Hemochromatosis|red meats/raw seafood/fortified foods/alcohol 
+Hepatitis|alcohol/sugary foods/salty foods/fried foods 
+Herpes|spicy foods/acidic drinks/turkey breast/pork loin/nuts/chicken breast/dairy products 
+High Blood Pressure/Hypertension|salty foods/ fried foods/pickles/canned soups/canned tomato products/sugary foods/processed foods/alcohol/ 
+Hyperkinesis|sugary foods/soda/caffeine/corn syrup/frozen fruits/frozen vegetables/energy drinks 
+Hyperlipidemia|fatty beef/lamb/pork/salty foods/dairy products/saturated vegetable oils/coconut oil/palm oil 
+Hyperthyroidism|milk/dairy products/cheese/egg yolks/iodized salt/iodized water/colorings 
+Indigestion|fried foods/chocolate/spicy foods/garlic/onions/tomatoes 
+Infertility|processed meat/soy product/high fat dairy products/trans fat 
+Insomnia|grapefruit/celery/tomatoes/cheese pizza/alcohol/black-bean chili/dark chocolate/carbonated soft drinks/steak 
+Jaundice|salty foods/ sugary foods/fried foods/red meats 
+Kidney disease|dark-colored soda/avocados/canned foods/whole wheat bread/brown rice/bananas/dairy products/oranges juice/processed meats/pickles/olives/relish/apricots/potatoes/sweet potatoes/tomatoes/swiss chard/spinash/pretzels/chips/crackers 
+Kidney stones|nuts/peanuts/rhubard/spinash/wheat bran 
+Liver disease|alcohol/sugary foods/fried foods/salty foods/white bread/rice/red meat 
+Lupus|alfalfa/garlic/white potatoes/tomatoes/eggplant 
+Menopause syndrome|processed foods/spicy foods/fast foods/alcohol/caffeine/fatty meals 
+Mental illness|sugary foods/fried foods/processed foods/cereal/crackers/bagel/white bread 
+Microcytic anemia|tea/caffeine/dairy product/grapes/corn/sorghum/wheat/barley/rye 
+Migraine|onions/navy beans/citrus fruits/dried fruits/sauerkraut/mashed potatoes  
+Myopathy|wheat flour/bread/snack foods 
+Nail problems|animal fats 
+Nausea/Vomiting|alcohol/caffeine/fats/oils/spicy food/milk/cheese 
+Nervousness|white bread/white rice/coffee/caffeinated soft drinks/alcohol 
+Neurology/Dysgeusia/Parageusia|sugary drinks/refined carbs/foods high in trans fats/ 
+Neuropathy|candy/ice cream/soft drinks/fruit juices/pastries/alcohol/gluten 
+Noise sensitivity|aspartame/salt/salicylates/beverages/sugar/fats/ 
+Obesity|full-fat dairy foods/fried foods/red meats/sugar-sweetened beverages/fruit juice/refined grains/potatoes/fast food 
+Osteoporosis|high-salt foods/alcohol/beans/legumes/wheat bran/caffeine/rhubarb/spinach 
+Parasitic disease|sugar/coffee/meat/dairy/alcohol 
+Paresthesia/tingling|gluten/wheat/barley/rye/cake/baking flour 
+Pellagra|fried foods/alcohol/coffee/tea 
+Peptic ulcers|coffee/caffeinated beverages/carbonated beverages/chocolate/chilies/hot pepper/processed foods/high-salt foods/deep-fried foods 
+Pernicious anemia|tea/coffee/milk/dairy products/whole-grain cereals/grapes/corn/sorghum/gluten/pasta/wheat/barley/rye/oats/brown rice/whole grain/peanuts/parsley/chocolate 
+Phlebitis|kale/spinach/brussels sprouts/chard/collard/mustard greens/green tea/cranberry juice/alcohol 
+Premenstrual tension|salt/fast food/processed food/fruits/vegetables/whole grains/low-fat dairy 
+Prostate problems|red meat/processed meat/high-fat dairy/alcohol/saturated fat/milk 
+Psoriasis|wheat derivatives/rye/barley/malt/pasta/noodles/processed foods/beer and malt beverages/ animal fats/fried food/wheat/dairy products/peanuts/shellfish 
+Pulmonary disease|cold cuts/bacon/ham/hotdogs/excessive salt/dairy products/fried foods/cruciferous vegetables/carbonated beverages 
+Respiratory disorders|beans/lentils/onions/leeks/shallots/scallions/garlic/cauliflower/cabbage/melons/peas 
+Rheumatic fever|tobacco/alcohol/processed sugar/processed foods/gluten/dairy/tomatoes/eggplant 
+Rheumatoid arthritis|meats/fatty foods/sugar/refined carbohydrate/gluten/alcohol/Preservatives and flavor enhancers 
+Rickets/Weaken bones/Bone deformities/Osteomalacia|high-salt foods/alcohol/beans/legumes/wheat brain/excess vitamin A/caffeine 
+Seasonal affective disorder|high saturated fat foods/alcohol/salt/caffeine 
+Sex drive|alcohol/beets/berries/canned soup/cheese/coffee/cornflakes/deli meats 
+Sinusitis|mucus-forming food/milk/dairy product/animal fats/ yogurt/cold drinks/cold foods/banana/fruits/rice 
+Skin Rash/Rash|cow's milk/eggs/soy products/gluten/nuts/fish/shellfish 
+Stress|sugar/white bread/white rice/cereals/carbohydrates 
+Stunted growth|junk food/soda/rice for dinner/corn/soy/alcohol/ice cream/sugary foods 
+Sun sensitivity|Consuming celery/dill/fennel/figs/lime/parsley/wild carrots 
+Swollen tongue|spicy foods/chilli/pineapple/leomn/tomato 
+Syringoma|alcohol consumption/illicit drug 
+Tachycardia|alcohol/caffeine/chocolate/soda/tea/spicy food/cold drinks 
+Thrush|sugar/fruits/yeast/mushroom/fermented foods/alcohol/vinegar 
+Thyroid|tea/coffee/caffeinated drinks/iodized salt/raw cabbage 
+Tinnitus|salt/caffeine/fast food/pineapple/garlic/sweets/alcohol 
+Tonsillitis|heavy meats/animal fats 
+Tooth decay|sugary sweets/candies/spft drinks/wine/citrus fruits/crackers/sport beverages 
+Tremor’s finger|dairy products/saturated fat 
+Tuberculosis|alcohol/carbonated drinks/tea/coffee/tobacco/spices/salt 
+Ulcers/acid relux|coffee/carbonated everages/chocolate/chilies/hot peppers/processed foods/deep-fried foods 
+Urinary tract infection/UTI|caffeinated coffee/caffeinated sodas/alcohol/spicy foods/acidic fruits/artificial sweeteners 
+Urticaria|strawberries/shellfish/tomatoes/chocolate/eggs/meats/wheat/milk/nuts 
+Varicose veins|eggs/meat/cheese/refined grains/wheat 
+Wilson's disease|organ meats/shellfish 
+Wrinkles|sugary pastries/hot dogs/bacon/pepperoni/fatty meats/alcohol 
+Xanthelasma|whole milk/butter/cheese/cream/fatty meats/lard/cakes/cookies/coconut oil/palm oil 

@@ -1,0 +1,27 @@
+{"intents": [
+        {"tag": "1",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "2",
+        "patterns": ["Who are you?"],
+        "responses": ["I am NutriBot, an AI chatbot who will help to give nutrition advice based on your symptom!"]
+        },
+        {"tag": "3",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye!"]
+        },
+        {"tag": "4",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "My pleasure"]
+        },
+        {"tag": "5",
+         "patterns": ["What should I eat if I have", "What nutrients do I need if I am", "What do I eat if I have", "What food do I need to consume if I have"],
+         "responses": ["", ""]
+        },
+        {"tag": "6",
+         "patterns": ["What should I avoid if I have", "What should I not eat if I have", "What shouldn't I eat if I have", "What food do I need to avoid if I have"],
+         "responses": ["", ""]
+        }
+   ]
+}

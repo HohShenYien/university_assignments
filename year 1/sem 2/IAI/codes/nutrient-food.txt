@@ -1,0 +1,73 @@
+Aflatoxins|peanuts/corn/milk/cheese/almonds/Brazil nuts/pecans/pistachios/walnuts/grains/quinoa/soybeans/figs
+Alcohol|rye bread/banana (ripe)/pear (ripe)/cherry yogurt/apple juice/orange juice/grape juice/white wine vinegar/fondues/malt vinegar/pure or artificial flavor extracts
+Amino acid lysine|red meat/pork/poultry/cheese/cod/sardines/eggs/soybeans/tofu/isolated soy protein/defatted soybean glour/spirulina/fenugreek seed/avacados/beets/leeks/tomatoes/pears/green and red peppers
+Amino acid|eggs/oysters/cod/milk/beef/chicken/soya beans/lentils/brown rice
+Anti-inflammatory|brocoli/avocaods/green tea/peppers/grapes/turmeric/dark chocolate/cocoa/tomatoes/extra virgin olive oil/spinach/kale/collards/nuts/salmon/mackerel/tuna/sardines/strawberries/blueberries/cherries/oranges
+Antioxidants|dark chocolate/pecans/blueberries/strawberries/artichokes/goji berries/raspberries/kale/red cabbage/beans/beets/spinach
+Beta carotene|apricots/chard/dark green and red leaf lettuce/dark leafy greens/mangoes/old carrots/pumpkin/red and yellow peppers/spinach/squashes/sweet potatoes/tomatoes/watercress/yellow melon
+Bioflavonoids|citrus fruits/green peppers/lemons/limes/oranges/cherries/grapes/broccoli/red and yellow onions
+Biotin|peanuts/almonds/kidney/egg yolk/walnuts/chicken/sesame seeds/breast milk/infant formula/meat/yeast/bananas/strawberries/grapefruit/watermelon
+Boron|green leafy vegetables/kale/spinach/grains/prunes/raisins/noncitrus fruits/nuts/apples/coffee/dried beans/milk/potatoes/avocado/prune juice/peaches/brocoli
+Caffeine|coffee/espresso/tea/soda/chocolate/cocoa/guarana/energy drinks/dark chocolate/green tea/black tea/coffee liqueur
+Calcium|semi-skimmed or skimmed milk/cheddar cheese/sardines/tofu/dried figs/watercress/yogurt/cabbage/eggs/brazil nuts/cheese/chickpeas/dried seaweed/greens/shellfish/whitebait/breast milk/infant formula/fortified or enriched grain products/collards/kale mustard greens/turnip greens/salmon
+Carbohydrate|breast milk/infant formula/whole-grain breads/cereals/fortified or enriched grain products/potatoes/corn/legumes/fruits/vegetables
+Choline/inositol/Choline and inositol|liver/steak/egg yolks/brewer's yeast/peanuts/citrus fruits/wholemeal bread
+Chromium|brewer's yeast/egg yolk/meat/cheese/wholemeal bread/whole grains/spinach/bananas/corn oil/fortified or enriched grain products
+Chrorine|table salt/sea salt/seaweed/rye/tomatoes/lettuce/celery/olive/artichoke/fermented cabbage/spinach/lettuce/carrot/celery/beet/plums/coconut/mushrooms/almonds/walnuts/hazelnuts/dates/shellfish/meat
+Cobalt|red meat/milk/fish/cabbage/figs/turnips/brocoli/spinach/kidneys/liver/oysters/mussel/shellfish/legumes/sardines/sea bass/pike/mackerel/flounder/cod/squid/potatoes/beets
+Co-ezyme Q10|meat/sardines/mackerel/peanuts/sesame seeds/spinach
+Collagen|fish/chicken/egg white/citrus fruits/berries/red and yellow vegetables/garlic/white tea/leafy greens/cashews/tomatoes/bell peppers/beans/avacados/soy/knotweed/horsetail/gynostemma/gotukola/bala/ashwagandha
+Copper|oysters/liver/shellfish/sardines/sunflower seeds/peanuts/mushrooms/wholemeal bread/prunes/kidney/poultry/legumes/grain products
+Digestive enzymes|pineapples/papaya/mango/honey/bananas/avocados/kefir/saucerkraut/kimchi/miso/kiwifruits/ginger
+Fats|breast milk/infant formula/protein-rich foods/butter/meats/dairy products/egg yolk/nuts/butter/margarine/cream/salad oils/cooking and meat fats
+Fiber|wholegrain breakfast cereals/wholewheat pasta/wholegrain bread/oats/berries/pears/melon/oranges/brocoli/carrots/sweetcorn/peas/beans/pulses/nuts/seeds/potatoes with skin
+Fluids|watermelon/strawberries/cantaloupe/peaches/oranges/skim milk/cucumber/lettuce/broths and soups/zucchini/celery/plain yogurt/tomatoes/bell peppers/cauliflower/cabbage/grapefruits/coconut water/cottage cheese
+Fluoride|spinach/grapes, raisins and wine/black tea/potatoes/soda/blue crab/shrimp/fruit flavored water with sweeteners/coffee/white rice/oysters/asparagus
+Folic acid/Vitamin B9/Folate|wheatgerm/liver/fortified breakfast cereal/black-eyed beans/green leafy vegetables (such as spinach and brocoli)/peanuts/bananas/avocado/brewer's yeast (dried)/citrus fruits/eggs/dried fruits/fresh nuts/oats/pulses/soya flour/breast milk/infant formula/legumes/whole-grain breads/lean beef/cantaloupe/oranges
+Gluten|beer/ale/porter/stout/breads/bulgur wheat/cakes and pies/candies/cereals/comminion wafers/cookies and crackers/croutons/french fries/gravies/imitation meat or seafood/malt/matzo/pastas/hot dogs/processed lunchmeats/salad dressings/soy sauce/seasoned rice mixes/seasoned snack foods/self-basting poultry/soup mixes/vegetables sauce
+Hyaluronic acid|turnips/carrots/potatoes/onions/chicken/beef/tofu/soy products/citrus fruits/grapefruits/oranges/bananas/tomatoes/leafy green vegetables
+Inositol|beans/eggplant/brussel sprouts/artichoke/cabbage/asparagus/banana/squash/tomato/brocoli/mushroom/cucumber
+Iodine|kelp(seaweed)/smock mackerel and haddock/mussels/canned salmon/prawns/milk/onions/cockles/cod/whelks/breast milk/infant formula/seafood/iodized salt
+Iron|fortified breakdast cereal/liver/dried fruit/sardines/canned tuna/parsley/watercress/beef and other meats/dark green leafy vegetables/dates/dried apricots/kidney/legumes/lentils/nuts/prunes/pumpkin/sesame seeds/raisins/spinach/wholemeal bread
+Lactobacillus acidophilus|kombucha/some cottage cheese/kefir/sauerkraut/miso/tempeh/yoghurt/sourdough bread/kimchi
+L-argine|nuts and seeds/meat products/legumes/seaweed/turkey/pork loin/soybeans/peanuts/spirulina/lentils/chicken
+Lean protein|white-fleshed fish/plain greek yogurt/beand/peas/lentils/white-meat poultry/low-fat cottage cheese/lite tofu/lean beef/powdered peanut butter/low-fat milk/pork loin/shrimp/egg whites/bison
+Low fat|beans/legumes/sweet potatoes/tart cherry juice/cruciferous vegetables/mushrooms/garlic/ancient grains/chicken breast/egg whites/vegetables/white fish/reduced fat dairy/lentils/fruits/whole grain foods/lean meats/
+Low fiber|white bread/white pasta/white rice/pancakes/bagels/low fiber cereal/canned vegetables/small amounts fresh vegetables/potatoes without skin/eggs/dairy products/tofu/chicken/fish/peanut butter/olive oil mayonnaise/gravy/butter
+Low salt/Low sodium|apples/berries/cherries/lemon/peaches/pears/pineapples/tangerines/watermelons/asparagus/carrots/corn/muchroom/mixed vegetables/brocoli/cucumber/eggplant/summer squash/pork loin/egg whites/catfish/cod/crab/halibut/shrimp/tuna/white rice/white bread/cereal/garlic/jam or jelly/cranberry/yellow mustard/vinegar/tabasco
+Magnesium|nuts/wholemeal bread/peanut butter/popcorn/cheddar cheese/white fish/eggs/milk/almonds/brazil nuts/brown rice/cashew nuts/peas/pine nuts/sesame and sunflower seeds/soya-based protein/soya beans/breast milk/infant formula/tofu/legumes
+Manganese|tea/wholemeal bread/avacado/hazelnuts/almonds/coconuts/plums/bananas/watercress legumes/fruits/leafy vegetables
+Minerals|nuts and seeds/shellfish/cruciferous vegetables/organ meats/eggs/beans/cocoa/avocados/berries/yogurt/cheese/sardines/spirulina/ancient grains/starchy vegetables/tropical fruits/leafy greens
+Molybdenum|liver/lentils/wheatgerm/sunflower seeds/green beans/spinach/eggs/rice/chicken/organ meats/dark green leafy vegetables/legumes
+Omega-3/Fatty acid|herring/mackerel/salmon/flaxseed (linseed)/hemp/sunflower seeds/pumpkin seeds/walnuts/chia seeds/tuna/sardines
+Omega-6|evening primrose oil/borage oil/safflower oil/sunflower oil/blackcurrant seed/sesame seeds/wheatgerm oil
+Oxalic acid|beet greens/rhubarb/spinach/beets/swiss chard/endive/cocoa powder/sweet potaoes/peanuts/turnip greens/star fruits/spinach/navy beans/raspberries/dates
+Phosphate|chicken/turkey/pork/organ meats/seafood/dairy/sunflower seed/pumpkin seeds/nuts/whole grains/amaranth/quinoa/beans/lentils/soy
+Phosphorus|hard cheese/milk products/yeast/whole grains/shellfish/nuts/seeds/eggs/breast milk/infant formula/poultry/fish/cereal/legumes
+Phytic acid|whole wheat/oats/rice/black beans/pinto beans/kidney beans/soybeans/peanuts/lentils/walnuts/pine nuts/almonds/sesame seeds/potatoes/turnips/beets/carrots
+Phytoestrogens|soybeans/tofu/tempeh/soy beverages/linseed (flax)/sesame seeds/wheat/berries/oats/barley/dried beans/lentils/rice/alfalfa/mung beans/apples/carrots/wheat germ/ricebran/soy linseed bread.
+Potassium|bananas/tomato puree/spinach/cauliflower/red pepper/potato crisps/chicken/oranges/cheddar cheese/red wine/cheese/fried fruit/eggs/fresh fruits/fruit juices/molasses/nuts/raw vegetables/tea/wholemeal bread/breast milk/infant formula/dried fruits/yogurt/potato/meat/fish/poultry/soy products
+Probiotics|yogurt/kefir/sauerkraut/tempeh/kimchi/miso/kombucha/pickles/traditional buttermilk/natto/cheese/
+Protein|breast milk/infant formula/meat/fish/poultry/egg yolk/cheese/yogurt/legumes
+Selenium|brazil nuts/fish and shellfish/sunflower seeds/wholemeal bread/walnuts/dairy products/fruit and vegetables/dried mushroom/lambs' kidneys and liver/lentils/sardines/tuna/white fish/fortified or enriched grain products/onion/meats/seafood
+Sodium|table salt/bacon/olives/prawns/cottage cheese/watercress/cornflakes/wholemeal bread/sodium chloride (table salt)
+Sulfur|turkey/beef/eggs/fish/chicken/nuts/seeds/grains/legumes/chickpeas/couscous/eggs/lentils/oats/turkeys/walnuts/allium vegetables/cruciferus vegetables/whole grains/leafy green vegetables
+Vanadium|mushrooms/shellfish/black pepper/parsley/dill weed/beer/wine/grain products/artificially sweetened drinks/dairy products/vegetable oils
+Vitamin A|liver/cod liver oil/carrots/sweet potatoes/butter/tomatoes/cheese/chicken/eggs/herrings/lamb's liver/mackerel/salmon/breast milk/infant formula/egg yolk/dark green/deep yellow vegetables/fruits
+Vitamin B/Vitamin B-complex|milk/cheese/eggs/liver and kidney/chicken meat and red meat/tuna/mackerel/salmon/shellfish/spinach/kale/beets/avacados/potatoes/whole grains/kidney beans/black beans/chickpeas/nuts and seeds/citrus/banana/watermelon/soy milk/tempeh/balckstrap molasses/wheat germ/yeast/nutritional yeast
+Vitamin B1/Thiamine|whole grains/brown rice/wholemeal pasta/pork and pork products/yeast extract/peas/peanuts/pulses/bewer's yeast (dried)/peanut butter/sunflower seeds/veggie burger mixes/wheat germ/breast milk/infant formula/legumes/breast milk
+Vitamin B10/Para-aminobenzoic acid/PABA|grains/eggs/milk/meat/brewer's yeast/organ meat/mushrooms/spinach
+Vitamin B12/Cabalamin/Cyanocobalamin|liver/beef/pork/white fish/eggs/fortified breakfast cereal/yeast extract/milk/cheese/lamb/oily fish/seaweed/infant formula/breast milk/meat/poultry/egg yolk
+Vitamin B15/Pangamic acid|brewer's yeast/whole brown rice/sesame seeds/pumpkin seeds/buckwheat/seeds/apricots kernels
+Vitamin B2/Riboflavin|yeast extract/whole grains/liver/fortified breakfast cereals/cheese/milk/green leafy vegetables/yogurt/wheat germ/soya products/meat/eggs/brewer's yeast/breast milk/infant formula/dairy products/egg yolk/legumes/enriched grain products
+Vitamin B3/Niacin|lean meat/whole grains/brewer's yeast (dried)/cheese/fish/eggs/wholemeal bread/dried fruits/nuts/oily fish/pig's liver/poultry/wholegrain cereals/yeast extract/breast milk/infant formula/meat/poultry/fortified or enriched grain products/egg yolk
+Vitamin B5/Pantothenic acid|royal jelly/brewer's yeast/liver and kidney/nuts/whole grains/eggs/beef/poultry/seafood/milk/mushrooms/avocados/potatoes/brocoli/wholewheat/brown rice/oats/peanuts/sunflower seeds/chickpeas/breast milk/infant formula/poultry/egg yolk/yeast/cereals/legumes
+Vitamin B6/Pyridoxine|wheatgerm/bananas/chicken/fish/brussels sprouts/potatoes/wholemeal bread/green leafy vegetables/baked beans/beef/brewer's yeast/cod/herring/lentils/poultry/salmon/walnuts/breast milk/infant formula/liver/legumes
+Vitamin B7|walnuts/peanuts/cereals/milk/egg yolks/wholemeal bread/salmon/pork/sardines/mushroom/cauliflower/avacados/bananas/raspberries
+Vitamin C/Ascorbic acid|blackcurrants/green pepper/mango/oranges/cabbage/tomatoes/potatoes/all citrus fruits/all green vegetables/berries/currants/lettuces/peppers/tropical fruits such as guavas/kiwi fruit/mangoes/pineapple
+Vitamin D|cod liver oil/herrings/mackerel/pilchards/sardines/salmon/margarine/tuna/cheddar cheese/eggs/fresh tuna/kipper/trout/infant formula/liver/egg yolk/fatty fish/sunlight
+Vitamin E/Tocopherol|wheatgerm oil/safflower, sunflower, olive and other seed oils/sunflower seeds/almonds/pine nuts/peanut butter/sweet potatoes/asparagus/spinach/avocado/brocoli/nuts and seeds/watercress/wheatgerm/breast milk/infant formula/vegetable oil/liver/egg yolk/butter/green leafy vegetables
+Vitamin F|avocados/sprouts/almonds/walnuts/chia seed/sunflower seeds/hemp seeds/soybean oil/olove oil/corn oil/flaxseeds/fish/eggs/meat/dairy products
+Vitamin K|green leafy vegetables/kale/spinach/turnip greens/collards/swiss chard/mustard greens/parsley/romaine/green leaf lettuce/brussels sprouts/brocoli/cauliflower/cabbage/fish/liver/meat/eggs/cereals/infant formula/vegetable oils
+Vitamin P/Falvonoids|berries/red cabbage/onions/kale/parsley/tea/red wine/dark chocolate/citurs fruits/soybeans
+Zinc|oysters/steak/wheatgerm/pumpkin, sesame, sunflower seeds/brazil nuts/egg yolk/cheese/dried seaweed/eggs/liver/oysters/pine nuts/shellfish/wholemeal bread/breast milk/infant formula/meat/legumes

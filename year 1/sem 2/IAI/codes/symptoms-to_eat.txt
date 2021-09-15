@@ -1,0 +1,139 @@
+Abnormal heart rhythms|Alcohol/Caffeine/Fats/Iodine/Vitamin K/Gluten 
+Acne|Vitamin A/Vitamin B3/Vitamin B6/Pantothenic acid/Vitamin C/Vitamin E/Selenium/Zinc/Omega-6/Lactobacillus acidophilus 
+Aging/premature|Vitamin C/Calcium/Vitamin E/Pangamic acid 
+AIDS and HIV infection/AIDS/HIV|Protein/Carbohydrate/Fats/Minerals/Vitamin A/Vitamin B/Vitamin C/Vitamin E/Selenium/Zinc/Calcium 
+Alcoholism|Vitamin A/Vitamin B-complex/Vitamin C/Vitamin D/Iron/Magnesium/Thiamine/Zinc 
+Allergies|Vitamin B1/Vitamin B3/Vitamin B6/Vitamin B12/Pantothenic acid/Vitamin B5/Choline and inositol/Vitamin C/Vitamin D/Vitamin E/Calcium/Magnesium/Molybdenum/Selenium/Zinc/Omega-6/Bioflavonoids  
+Alopecia/Hair loss/Baldness/Nongenetic|Vitamin A/Vitamin B/Vitamin C/Vitamin D/Vitamin E/Selenium/Zinc 
+Anemia|Vitamin B-complex/Copper/Iron 
+Angular cheilitis|Vitamin B2/Vitamin B3/Vitamin B6/Iron/Zinc 
+Anxiety/Hypochondria/Depression|Vitamin B1/Vitamin B6/Vitamin B12/Vitamin B5/Pantothenic acid/Folic acid/Vitamin C/Vitamin D/Vitamin E/Calcium/Chromium/Magnesium/Zinc/Amino acid
+Arthritis|Vitamin A/Vitamin C/Calcium/Vitamin D/Vitamin E/Pantothenic acid/Sulfur 
+Asthma/Bronchial|Vitamin A/Vitamin F/Manganese/Vitamin P/Pangamic acid 
+Atherosclerosis/AginA|Vitamin A/Vitamin B3/Vitamin B6/Vitamin B12/Pantothenic acid/Vitamin B5/Folic acid/Choline and inositol/Vitamin C/Vitamin E/Chromium/Magnesium/Selenium/Omega-3  
+Athletes foot|Vitamin A/Vitamin B12 
+Beriberi|Thiamine/Vitamin B1
+Biliary atresia|Vitamin E 
+Biliary cirrhosis|Copper 
+Bleeding gums|Vitamin C/Vitamin P 
+Bone loss|Calcium 
+Bronchitis|Vitamin A 
+Bruising|Vitamin K 
+Burns|Vitamin E/Para-aminobenzoic acid/Potassium 
+Bursitis|Antioxidants/Vitamin C/Vitamin D/Vitamin E/Anti-inflammatory 
+Cardiovascular disease|Vitamin A/Vitamin B-complex/Vitamin C/Vitamin E/Vitamin F/Magnesium/Potassium 
+Cataracts|Omega-3/Protein/Vitamin C/Vitamin D/Vitamin E 
+Cholesterolemia|Vitamin C/Choline/Vitamin E/Vitamin F/Inositol/Magnesium/Pangamic acid 
+Colds/Flu|Vitamin A/Vitamin C/Vitamin P 
+Colic/Infantile|Potassium 
+Colitis|Iron 
+Constipation|Choline/Inositol 
+Crohn's Disease|Calcium/Vitamin D/Magnesium/Vitamin K/Vitamin C/Vitamin B12/Folic acid/Zinc 
+Cyanide toxicosis|Folic acid 
+Dehydration|Sodium 
+Delayed wound healing|Vitamin A/Vitamin C/Iron/Zinc/L-argine/Fats/Protein 
+Dental health|Calcium/Vitamin A/Vitamin C/Fluoride 
+Depressed immune system|Vitamin E/Probiotics/Zinc/Vitamin C 
+Diabetes|Vitamin A/Chromium/Manganese/Phosphate/Potassium 
+Diarrheal disorders|Folic acid/Niacin/Vitamin A/Vitamin C/Vitamin B2/Vitamin D/Vitamin K
+Dizziness|Choline/Vitamin P 
+Dry skin|Para-aminobenzoic acid 
+Dyspnea|Pangamic acid 
+Eczema/Scaling of lips|Vitamin A/Biotin/Vitamin D/Vitamin F/Vitamin P/Sulfur 
+Emphysema|Pangamic acid 
+Eye hemorrhages|Vitamin K 
+Eyelid Dermatitis/Xeroderma of the eyelids/Eczema of the eyelids/atopic dermatitis|Omega-3/Probiotics
+Fatigue|Folic acid/Manganese
+Febrile illnesses/Fever|Vitamin B-complex/Vitamin C/Protein 
+Gallbladder disorders|Vitamin F 
+Gallstones|Vitamin K 
+Goiter/Hypothyroidism|Iodine/Selenium/Zinc 
+Gout|Carbohydrate/Protein/Vitamin C/Vitamin D/Fats
+Graying hair|Para-aminobenzoic acid 
+Growth retardation/stunted growth|Phosphorus/Carbohydrate/Protein/Aflatoxins/Phytic acid/Calcium
+Halitosis|Niacin 
+Headaches|Choline/Pangamic acid 
+Heat stroke|Sodium 
+Hemochromatosis|Iron 
+Hemorrhoids|Vitamin P/Iron 
+Hepatitis|Vitamin A/Vitamin C 
+Herpes|Amino acid lysine 
+Hyperkinesis|Vitamin B-complex 
+Hyperlipidemia|Niacin 
+Hypertension|Choline/Niacin/Vitamin P/Potassium 
+Hyperthyroidism|Vitamin B-complex/Iodine/Para-aminobenzoic acid/Potassium 
+Hypoglycemia|Vitamin B-complex/Vitamin C/Chromium 
+Impotence|Zinc 
+Indigestion|Pantothenic acid 
+Infertility|Para-aminobenzoic acid/Zinc 
+Insect stings|Vitamin C 
+Insomnia|Calcium/Choline/Niacin/Pangamic acid 
+Jaundice|Fiber/Digestive enzymes/Vitamin A/Vitamin C/Vitamin E/Zinc/Phosphorus/Folic acid 
+Kidney disease|Vitamin B-complex/Calcium/Vitamin D/Iron/Magnesium/Potassium/Zinc 
+Kidney stones|Magnesium 
+Leg cramps|Biotin/Calcium/Niacin 
+Leg ulcers|Vitamin F 
+Liver disease|Vitamin A/Vitamin B-complex/Copper/Vitamin D/Iron/Vitamin K/Protein/Zinc 
+Low Blood Pressure|Caffeine/Vitamin B 
+Lupus|Vitamin A/Vitamin C/Vitamin E/Zinc/Phosphorus/Folic acid/Vitamin D/Calcium/Fatty acid 
+Malabsorption syndrome|Vitamin E/Potassium 
+Memory loss|Omega-3/Caffeine/Antioxidants/Vitamin C/Protein 
+Meniere's syndrome|Vitamin B-complex 
+Menopause syndrome|Vitamin E 
+Menstrual syndromes|Vitamin B-complex/Calcium/Vitamin E/Iron/Vitamin K 
+Mental illness|Lean protein/Fatty acid/Carbohydrate 
+Microcytic anemia|Iron/Vitamin C 
+Migraine|Vitamin A/Vitamin B-complex/Vitamin E 
+Miliaria|Vitamin C 
+Muscle Cramps|Potassium/Calcium/Magnesium/Protein 
+Myopathy|Omega-3/Lean protein/Low fat 
+Myopia|Vitamin E 
+Nausea/Vomiting|Digestive enzymes
+Nervousness|Calcium/Magnesium 
+Neurology/Dysgeusia/Parageusia|Vitamin B/Antioxidants/Omega-3/Fiber/Anti-inflammatory 
+Neuropathy|Vitamin B12 
+Nitrate toxicosis/Nitrous oxide toxicosis|Folic acid 
+Noise sensitivity|Magnesium 
+Nycatalopia/Night Blindness|Vitamin A/Vitamin E/Vitamin C/Riboflavin/Omega-3/Niacin 
+Obesity|Vitamin A/Vitamin B-complex/Vitamin C/Calcium/Vitamin E/Vitamin F/Magnesium 
+Osteoporosis|Phytic acid/Oxalic acid/Sodium/Calcium/Omega-3/Vitamin A/Vitamin E/Vitamin C 
+Parasitic disease|Para-aminobenzoic acid 
+Paresthesia/tingling|Omega-3/Vitamin B/Vitamin C/Vitamin E/Phytoestrogens/Magnesium/Potassium 
+Pellagra|Niacin 
+Peptic ulcers|Magnesium/Vitamin P 
+Pernicious anemia|Vitamin B12 
+Phlebitis|Vitamin E 
+Pregnancy|Protein/Iron/Calcium/Minerals/Fiber/Fluids/Vitamin A/Vitamin C/Vitamin D/Vitamin B6/Vitamin B12
+Premenstrual tension|Calcium/Vitamin E/Vitamin K 
+Prostate problems|Magnesium/Zinc 
+Psoriasis|Vitamin D/Vitamin F/Sulfur 
+Pulmonary disease|Vitamin B-complex/Vitamin C 
+Repiratory disorders|Fluids/Beta carotene/Vitamin C/Antioxidants/Zinc 
+Rheumatic fever|Vitamin P/Para-aminobenzoic acid 
+Rheumatism/Rheumatoid arthritis|Calcium/Vitamin P/Pangamic acid/Vitamin F 
+Rickets/Weaken bones/Bone deformities/Osteomalacia|Vitamin D/Calcium/Phosphate 
+Scurvy|Vitamin C 
+Sex drive|Vitamin C/Vitamin E/Iron/Zinc 
+Sinusitis|Vitamin C/Vitamin E 
+Skin Rash/Rash|Vitamin D/Collagen/Vitamin C/Omega-3/Probiotics/Hyaluronic acid/Zinc/Fatty acid 
+Skin Tags|Fiber/Low fat/Vitamin C/Vitamin E/Minerals 
+Smoking toxicosis|Beta carotene/Vitamin C/Folic acid 
+Stress (abnormal)|Vitamin A/Vitamin B-complex/Vitamin C/Vitamin D/Vitamin E/Phosphorus 
+Subacute encephalopathy|Thiamine 
+Sun sensitivity|Para-aminobenzoic acid 
+Swollen tongue|Protein/Carbohydrate/Vitamin C/Vitamin E 
+Syringoma|Low sodium/Low fat 
+Tachycardia|Potassium/Magnesium 
+Tinnitus|Choline 
+Tooth decay|Vitamin C/Magnesium/Niacin/Pantothenic acid/Phosphorus 
+Tremors finger|Calcium 
+Tuberculosis|Protein/Vitamin C/Beta carotene/Vitamin D/Zinc 
+Underweight|Vitamin C/Vitamin E/Protein/Fluids/Fats/Iodine 
+Urinary tract infection|Vitamin C/Antioxidants 
+Warts|Vitamin E 
+Weakness|Vitamin C/Vitamin E/Fiber/Vitamin D/Protein/Omega-3/Carbohydrate 
+Weight loss|Vitamin F 
+Wilson's disease|Copper 
+Wrinkles|Vitamin E/Para-aminobenzoic acid 
+Xanthelasma|Vitamin C/Vitamin D/Vitamin E/Fiber 
+Xerophthalmia|Vitamin A 
